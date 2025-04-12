@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Page</title>
+    <link rel="stylesheet" href="../../css/activitiesCSS/questionnaire.css">
+    <link rel="stylesheet" href="../../subpages/activities/quizResult/blockSquare.html">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Fun Quiz: Discover Your Tetris Block Personality!</h1>
+
+        <form id="quiz-form">
+            <!-- Name Input -->
+            <div class="question">
+                <p>🎮 Enter your name:</p>
+                <input type="text" name="playerName" id="player-name" placeholder="Your Name" required>
+            </div> 
+            
+            <!-- Questions here -->
+            <div class="question">
+                <p>🧠 How do you approach solving a difficult problem?</p>
+                <input type="radio" name="solving" value="1" id="problem-1" required><label for="problem-1">1 - Get
+                    frustrated easily 😣</label><br>
+                <input type="radio" name="solving" value="2" id="problem-2" required><label for="problem-2">2 - Take a
+                    break and try again later </label><br>
+                <input type="radio" name="solving" value="3" id="problem-3" required><label for="problem-3">3 - Break it
+                    into smaller tasks </label><br>
+                <input type="radio" name="solving" value="4" id="problem-4" required><label for="problem-4">4 - Use
+                    logic and look for patterns </label><br>
+                <input type="radio" name="solving" value="5" id="problem-5" required><label for="problem-5">5 - Jump in
+                    and take on the challenge🏊 </label><br>
+            </div>
+
+            <div class="question">
+                <p>🧩 How do you handle tasks that require strategic planning?</p>
+                <input type="radio" name="planning" value="1" id="plan-1" required><label for="plan-1">1 - Avoid them!
+                    🙅‍♂️</label><br>
+                <input type="radio" name="planning" value="2" id="plan-2" required><label for="plan-2">2 - Try to wing
+                    it </label><br>
+                <input type="radio" name="planning" value="3" id="plan-3" required><label for="plan-3">3 - Create a
+                    rough plan, adjust as needed </label><br>
+                <input type="radio" name="planning" value="4" id="plan-4" required><label for="plan-4">4 - Map out every
+                    step carefully </label><br>
+                <input type="radio" name="planning" value="5" id="plan-5" required><label for="plan-5">5 - Love planning
+                    and always have a detailed strategy 📝</label><br>
+            </div>
+
+            <div class="question">
+                <p>🗂️ How do you feel about organizing things (like arranging items to fit into limited space)?</p>
+                <input type="radio" name="organization" value="1" id="organize-1" required><label for="organize-1">1 -
+                    Find it stressful 😵</label><br>
+                <input type="radio" name="organization" value="2" id="organize-2" required><label for="organize-2">2 -
+                    Struggle with it, but try </label><br>
+                <input type="radio" name="organization" value="3" id="organize-3" required><label for="organize-3">3 -
+                    Keep things neat and organized </label><br>
+                <input type="radio" name="organization" value="4" id="organize-4" required><label for="organize-4">4 -
+                    Enjoy optimizing space for efficiency </label><br>
+                <input type="radio" name="organization" value="5" id="organize-5" required><label for="organize-5">5 -
+                    Love organizing and fitting things together 📦 </label><br>
+            </div>
+
+            <div class="question">
+                <p>⚡ How comfortable are you with adapting to unexpected changes in a plan?</p>
+                <input type="radio" name="adapt" value="1" id="adapt-1" required><label for="adapt-1">1 - Dislike
+                    surprises, feel stressed 😬</label><br>
+                <input type="radio" name="adapt" value="2" id="adapt-2" required><label for="adapt-2">2 - Manage, but
+                    it’s tough </label><br>
+                <input type="radio" name="adapt" value="3" id="adapt-3" required><label for="adapt-3">3 - Handle it if
+                    calm </label><br>
+                <input type="radio" name="adapt" value="4" id="adapt-4" required><label for="adapt-4">4 - Flexible and
+                    adjust easily </label><br>
+                <input type="radio" name="adapt" value="5" id="adapt-5" required><label for="adapt-5">5 - Thrive under
+                    pressure and love a challenge 🔥</label><br>
+            </div>
+
+            <div class="question">
+                <p>🕹️ How do you handle challenges that require quick decision-making?</p>
+                <input type="radio" name="decision" value="1" id="decision-1" required><label for="decision-1">1 -
+                    Freeze up and struggle 😰</label><br>
+                <input type="radio" name="decision" value="2" id="decision-2" required><label for="decision-2">2 -
+                    Hesitate, but eventually choose </label><br>
+                <input type="radio" name="decision" value="3" id="decision-3" required><label for="decision-3">3 - Take
+                    a moment, then decide </label><br>
+                <input type="radio" name="decision" value="4" id="decision-4" required><label for="decision-4">4 - Make
+                    decisions quickly </label><br>
+                <input type="radio" name="decision" value="5" id="decision-5" required><label for="decision-5">5 - Excel
+                    in fast-paced, high-pressure situations 🚀</label><br>
+            </div>
+
+
+            <button type="submit" class="submit-btn">Submit Quiz</button>
+        </form>
+
+        <div id="result"></div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Tetris For Life Quiz</p>
+    </footer>
+
+    <script src="../../js/quiz.js"></script>
+</body>
+
+</html>

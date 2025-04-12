@@ -1,0 +1,127 @@
+<!-- Contact us page contains a form for the user to fill out and it will send a message to the
+tetrisforlife email -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact Us</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/contactCss/contact.css">
+    <link rel="stylesheet" href="../css/contactCss/section-info-styles.css">
+    <link rel="stylesheet" href="../css/page_format.css">
+
+    <script src="../js/contact.js" defer></script> <!-- JS Link -->
+    <script src="../js/darkmode.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Header image -->
+    <header>
+        <img src="../images/contact.png" alt="A black banner image depicting the word 'Tetris' in a font made of colored squares" class="header-image">
+    </header>
+
+    <!-- Navigation links to other pages -->
+    <nav class="navbar">
+        <ul>
+            <li class="home"><a href="../index.html">Home</a></li>
+            <li class="about-us"><a href="./aboutus.html">About Us</a></li>
+            <li class="history"><a href="./history.html">History</a></li>
+            <li class="gameplay"><a href="./gameplay.html">Gameplay</a></li>
+            <li class="legends"><a href="./legends.html">Legends</a></li>
+            <li class="guest">
+                <a href="../subpages/activities/guest.html">Activities</a>
+                <!-- Dropdown Menu -->
+                <ul class="dropdown">
+                    <li><a href="../subpages/activities/guest.html">Guest Activities</a></li>
+                    <li><a href="../subpages/activities/whatblock.html">What Block Are You?</a></li>
+                </ul>
+            </li>
+            <li class="contact"><a href="./contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Tetris Section: History -->
+    <h1>
+        <span class="tetris-t">T</span><span class="tetris-e">e</span><span class="tetris-t2">t</span><span
+            class="tetris-r">r</span><span class="tetris-i">i</span><span class="tetris-s">s</span>
+        <span class="tetris-history">Contact Us</span>
+    </h1>
+
+    <!-- Dark mode button -->
+
+    <button id="theme-switch" aria-label="theme-switch">
+
+        <svg class="darkSVG" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+            fill="#e8eaed">
+            <path
+                d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Z" />
+        </svg>
+        <svg class="lightSVG" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+            fill="#e8eaed">
+            <path
+                d="M480-280q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Z" />
+        </svg>
+
+    </button>
+
+
+    <main>
+        <!-- Form -->
+        <form action="https://api.web3forms.com/submit" method="post">
+            <input type="hidden" name="access_key" value="ca5c1f61-9438-4ae0-903a-a04cac5d29ff">
+            <div class="input-box-wrapper">
+                <p>
+                    <input type="text" id="name" name="name" placeholder="Name" aria-label="name entry box" autocomplete="off" required>
+                </p>
+
+                <p>
+                    <input type="email" id="email" name="email" placeholder="Email" aria-label="email entry box" autocomplete="off" required>
+                </p>
+
+                <p>
+                    <textarea id="message" name="message" rows="6" cols="60" placeholder="Enter your message"
+                        aria-label="email-message entry box"autocomplete="off" required></textarea>
+                </p>
+
+                <button type="submit">Send Message</button>
+            </div>
+
+        </form>
+
+    </main>
+
+
+    <!-- Back to Top Link -->
+    <div>
+        <a href="#top" id="backToTop">Back to Top</a>
+    </div>
+
+
+    <!-- Footer Section for Links to Other Sources -->
+    <footer>
+        <!-- Logo Section -->
+        <img src="../images/tetris.gif"
+            alt="An animated logo depicting tetris blocks forming the words 'Tetris for Life'" class="logo">
+
+        <h2>About This Page</h2>
+        <p>This site is dedicated to the history, gameplay, and cultural impact of Tetris. Explore the content to learn
+            more about the game’s origins, evolution, and its significance in gaming culture.
+        </p>
+
+        <div class="footer-links">
+            <a href="aboutus.html" target="_blank">About Us</a> |
+            <a href="contact.html" target="_blank">Contact Us</a>
+        </div>
+
+        <!-- Contact Information -->
+        <div class="contact-info">
+            <p>Email: <a href="mailto:tetrisforlife@list.arizona.edu">tetrisforlife@list.arizona.edu</a></p>
+        </div>
+
+        <!-- Copyright Information -->
+        <p>&copy; 2024 Tetris For Life. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>

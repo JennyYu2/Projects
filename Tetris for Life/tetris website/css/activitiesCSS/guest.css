@@ -1,0 +1,144 @@
+/* General Body Style */
+body {
+    background-color: #F5F5F5;
+    color: #121010;
+    font-family: Arial, sans-serif;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+body h1 {
+    font-size: 36px;
+    margin-left: 25px;
+}
+
+/* --- HEADER IMAGE THAT APPEARS DIRECTLY ABOVE THE HOME BUTTON --- */
+.header-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    display: block;
+	object-position: 100% 50%;
+    /* Centering the image */
+    margin: 0 auto;
+}
+
+/* LOGO FOR ALL PAGES */
+.logo {
+    width: 15%;
+    min-width: 200px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+/* Margin for the form */
+form {
+	margin-top: 50px;
+	
+}
+
+/* Name, Email, Message field style */
+input, textarea {
+	font-family: Arial, sans-serif; 
+    font-size: 20px;
+	background-color: white;
+	width: 80%;
+	margin-left: 8%;
+	padding: 11px 11px;
+	border: 1px solid black;
+	border-radius: 10px;
+	border-color: black;
+}
+
+/* Style when user hovers over input fields */
+input:hover, textarea:hover {
+	border-color: #9C27B0;
+	border-width: 2.5px;	
+}
+
+/* Style when user clicks on input fields */
+input:focus, textarea:focus {
+	outline: none;
+	border-color: #9C27B0;
+	border-width: 2.5px;	
+}
+
+/* Submit button */
+.input {
+	color: #1A1A2E;
+	background-color: #ffcc00;
+	border: 1px solid black;
+	border-radius: 20px;
+	align-items: center;
+	font-family: Arial, sans-serif;
+	font-size: 24px;
+	padding: 5px 12px;
+	width: auto; 
+	display: flex;
+	cursor: pointer;
+	margin-left: 8.5%;
+}
+
+/* Style when hovering over submit button */
+.input:hover {
+	transform: scale(1.02);
+	background-color: #ff9900;
+	/*opacity: 80%;*/
+	cursor: pointer;
+}
+
+/* Format for box behind the input fields */
+.input-box-wrapper {
+    background-color: #1A1A2E; 
+    padding: 20px; 
+    border-radius: 15px;
+    margin: 15px 10%; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    width: 55%; 
+}
+
+/* Dark mode */
+.darkmode {
+    background-color: #121010;
+    color: white;
+}
+
+
+#theme-switch{
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 370px;
+    right: 20px;
+}
+
+.darkmode #theme-switch{
+    background-color: #121010;
+}
+
+.darkSVG{
+    fill: #121010;
+}
+
+.lightSVG{
+    fill: #F5F5F5;
+}
+
+#theme-switch svg:last-child{
+    display: none;
+}
+
+.darkmode #theme-switch svg:first-child{
+    display: none;
+}
+
+.darkmode #theme-switch svg:last-child{
+    display: block;
+}

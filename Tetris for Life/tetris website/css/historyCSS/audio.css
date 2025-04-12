@@ -1,0 +1,33 @@
+/* --- FOR AUDIO (TETRIS MAIN MUSIC) --- */
+.audio-section {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 25px;
+    background-color: #F5F5F5;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    margin-left: 25px;
+    display: inline-block;
+}
+
+.audio-section h2 {
+    font-size: 28px;
+    margin: 0;
+}
+
+.audio-section p {
+    font-size: 16px;
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+.audio-container {
+    display: flex;
+    align-items: center;
+}
+
+.gameboy-image {
+    width: 150px;
+    height: auto;
+    margin-right: 15px;
+}

@@ -1,0 +1,135 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #28a745;
+    padding: 20px;
+    color: white;
+}
+
+
+
+
+/* --- BACK TO THE QUIZ --- */
+.back-to-quiz {
+    text-align: center;
+    /* Moves it down a bit */
+    margin-top: 50px;
+}
+
+.back-to-quiz a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #007bff;
+}
+
+.back-to-quiz a:hover {
+    color: #0056b3;
+}
+
+
+
+/* --- BLOCK STYLE --- */
+.block-container {
+    display: grid;
+    grid-template-columns: repeat(3, 60px);
+    grid-template-rows: repeat(3, 60px);
+    gap: 2px;
+    justify-content: center;
+    margin: 30px auto;
+}
+
+.block {
+    width: 60px;
+    height: 60px;
+    background-color: #1987e0;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover Effect */
+.block:hover {
+    background-color: #2282ff;
+}
+
+.empty {
+    background-color: transparent;
+}
+
+
+/* Text Styling */
+h1 {
+    color: #ffffff;
+}
+
+/* --- DESCRIPTION FOR THE TETRIS BLOCK --- */
+.description {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333333;
+    text-align: left;
+    max-width: 800px;
+    /* Sets a max width to prevent text from stretching too far */
+    margin-left: auto;
+    margin-right: auto;
+    /* Centers the entire description block horizontally */
+    padding-left: 240px;
+}
+
+.description p {
+    /* Adds space between paragraphs */
+    margin-bottom: 10px;
+}
+
+
+/* Emphasizing important words */
+.description .highlight {
+    font-weight: bold;
+    color: #007bff;
+}
+
+
+/* --- COLOR FOR EACH BLOCK ---*/
+.t {
+    background-color: #9c27b0;
+    /* Purple for T-Tetrimino */
+}
+
+
+.j {
+    background-color: #ff5722;
+    /* Red for J-Tetrimino */
+}
+
+
+.l {
+    background-color: #2196f3;
+    /* Blue for L-Tetrimino */
+}
+
+
+.o {
+    background-color: #ffeb3b;
+    /* Yellow for O-Tetrimino */
+}
+
+.i {
+    background-color: #4caf50;
+    /* Green for I-Tetrimino */
+}
+
+.s {
+    background-color: #8bc34a;
+    /* Light Green for S-Tetrimino */
+}
+
+.z {
+    background-color: #f32b1c;
+    /* Red for Z-Tetrimino */
+}

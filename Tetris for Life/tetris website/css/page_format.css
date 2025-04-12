@@ -1,0 +1,251 @@
+/* NAVIGATION BAR STYLING */
+nav {
+    font-family: Helvetica, sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    opacity: 0.9;
+    z-index: 100;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+nav ul li {
+    flex: 1 1 110px;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    color: black;
+    font-size: 14pt;
+    font-weight: bold;
+    padding: 15px 5px;
+    border: 1px solid darkslategray;
+    box-sizing: border-box;
+}
+
+.home:hover {
+    background-color: #0E6BA9;
+}
+
+.about-us:hover {
+    background-color: #E53935;
+}
+
+.history:hover {
+    background-color: #369639;
+}
+
+.gameplay:hover {
+    background-color: #b911b9;
+}
+
+.legends:hover {
+    background-color: #369639;
+}
+
+.guest:hover {
+    background-color: #E53935;
+}
+
+.contact:hover {
+    background-color: #0E6BA9;
+}
+
+/* --- FOOTER SECTION FOR TETRIS RESOURCES --- */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+footer h2 {
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer li {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #ffcc00;
+
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+/* --- ABOUT US AND CONTACT US --- */
+.footer-links {
+    margin: 10px 0;
+}
+
+.footer-links a {
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* LOGO FOR ALL PAGES */
+footer .logo {
+    width: 15%;
+    min-width: 200px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* --- SCROLL BACK TO THE TOP ---*/
+/* BACK TO TOP link styling */
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    /* Adjusts it to be centered */
+    transform: translateX(-50%);
+    background-color: #b3d3e2bd;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: none;
+    /* Initially hidden */
+    cursor: pointer;
+    z-index: 1000;
+    /* Removes underline */
+    text-decoration: none;
+}
+
+/* Optional: Hover effect for Back to Top link */
+#backToTop:hover {
+    background-color: rgb(118, 168, 184);
+    color: white;
+}
+
+
+/* Tetris Letter Colors */
+/* This stylesheet defines colors for each letter of the "Tetris" text */
+
+span {
+    display: inline;
+}
+
+.tetris-t {
+    /* blue */
+    color: #0E6BA9;
+}
+
+.tetris-e {
+    /* orange */
+    color: #E53935;
+}
+
+.tetris-t2 {
+    /* yellow */
+    color: #0E6BA9;
+}
+
+.tetris-r {
+    /* green */
+    color: #369639;
+}
+
+.tetris-i {
+    /* purple */
+    color: #b911b9;
+}
+
+.tetris-s {
+    /* red */
+    color: #E53935;
+}
+
+
+/* CHANGE THE 'HISTORY' WORD FROM BLACK TO WHITE WHEN USING DARK MODE */
+.darkmode .tetris-history {
+    color: white;
+}
+
+
+/* --- DROP DOWN MENU FOR ACTIVITIES SECTION --- */
+nav .guest {
+    position: relative;
+}
+
+nav .guest .dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f8efef;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+nav .guest:hover .dropdown {
+    display: block;
+}
+
+nav .dropdown li {
+    padding: 8px 10px;
+}
+
+nav .dropdown li a {
+    color: #1b1b1b;
+    font-weight: bold;
+    font-size: 12pt;
+    padding: 10px;
+    display: block;
+    text-align: left;
+    border: 2px solid #ddd;
+}
+
+nav .dropdown li a:hover {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+
+nav .dropdown {
+    width: 100%;
+}

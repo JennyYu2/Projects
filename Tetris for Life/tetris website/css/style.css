@@ -1,0 +1,145 @@
+header {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    z-index: 10;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 10px 0 0;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* Background gif settings*/
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('../images/tetris+gif+giphy-3574018831.gif'),
+        #000;
+    background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* Background gif settings*/
+}
+
+img {
+    border: none;
+    outline: none;
+}
+
+div {
+    opacity: 0.86;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* BANNER STYLING */
+.banner {
+    width: 100%;
+    height: auto;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 30px 0;
+    display: flex;
+	flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.banner img {
+	max-width: 100%;
+	object-fit: contain;
+}
+
+.banner-text {
+    /*transparent background */
+    background-color: rgba(0, 0, 0, 0.5);
+
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.banner-text h1 {
+    font-size: 32pt;
+    color: #ffcc00;
+    margin: 0;
+}
+
+.banner-text p {
+    font-size: 16pt;
+    color: #fff;
+    margin: 0;
+}
+
+/* LOGO STYLING */
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.logo img {
+    max-width: 1024px;
+    max-height: 149px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* CONTENT SECTION STYLING */
+.content {
+    padding: 20px;
+    z-index: 10;
+}
+
+.content section {
+    background-color: #662f74;
+    opacity: 0.99;
+    padding: 69px 50px;
+    margin-top: 300px;
+    text-align: center;
+}
+
+.content h2 {
+    color: whitesmoke;
+    font-size: 24pt;
+    margin-bottom: 10px;
+}
+
+.content h2 a:hover {
+    color: #fc0;
+    text-decoration: none;
+}
+
+.content h3 {
+    color: whitesmoke;
+    font-size: 16pt;
+    line-height: 1.5;
+    font-weight: normal;
+}
+
+.content h3 a {
+    color: #fc0;
+}
+
+.content h3 a:hover {
+    color: #e53935;
+    text-decoration: underline;
+}

@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* --- THE MAIN CONTAINER FOR THE QUIZ --- */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* --- STYLE FOR THE QUIZ TITLE --- */
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+
+
+/* --- STYLE FOR THE QUESTIONS --- */
+.question {
+    margin-bottom: 40px; /* Space between questions */
+}
+
+.question p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+
+/* --- STYLE FOR THE RADIO BUTTON LABELS --- */
+label {
+    font-size: 1rem;
+    cursor: pointer;
+    padding-left: 10px;
+    transition: all 0.3s ease;
+}
+
+
+/* --- STYLE FOR RADIO BUTTON LABELS WHEN CHECKED --- */
+input[type="radio"] {
+    margin-right: 10px;
+    /* keeps radio button aligned with text */
+    vertical-align: middle; 
+    margin-bottom: 10px;
+}
+
+input[type="radio"]:checked + label {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.question-container {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 10px; 
+}
+
+.question-container input[type="radio"] {
+    margin-right: 15px; 
+}
+
+
+
+/* --- STYLE FOR SUBMIT BUTTON --- */
+button.submit-btn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+button.submit-btn:hover {
+    background-color: #2980b9;
+}
+
+
+/* --- RESULT SECTION --- */
+#result {
+    margin-top: 30px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+
+/* --- FOOTER --- */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 1rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+/* RESULT BLOCK STYLE THAT USER WILL CLICK ON TO SEE THEIR BLOCK  */
+.hover-link {
+    color: #3498db;  
+    font-size: 2.1rem; 
+    transition: color 0.3s ease, transform 0.3s ease; 
+    text-decoration: underline;
+}
+
+/* Hover effect */
+.hover-link:hover {
+    color: #2371a5;  
+    transform: scale(2.3);  /* Slightly enlarge the link */
+}

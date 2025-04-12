@@ -1,0 +1,59 @@
+
+/* LOGO FOR ALL PAGES */
+.logo {
+    width: 15%;
+    min-width: 200px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.tetris-page-title{
+    margin-left: 8.5%;
+}
+
+.sections-container{
+    margin-left: 10%;
+}
+
+/* --- NAVIGATION BAR STYLING ( HOME BUTTON ONLY ) --- */
+.navbar {
+    display: flex;
+    align-items: center;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Navigation menu styling */
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+/* Navigation list item styling */
+.navbar ul li {
+    display: inline;
+}
+
+/* Navigation link styling */
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    background-color: #b3d3e2bd;
+    padding: 10px 15px;
+    border-radius: 5px;
+
+}
+
+.navbar ul li a:hover {
+    background-color: rgb(118, 168, 184);
+    color: white;
+}

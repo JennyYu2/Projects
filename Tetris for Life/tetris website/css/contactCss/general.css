@@ -1,0 +1,85 @@
+/* General Body Style */
+body {
+    background-color: #f5f5f5;
+    color: #121010;
+    font-family: Arial, sans-serif;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+body h1 {
+    font-size: 36px;
+    margin-left: 25px;
+}
+
+
+
+/* --- FOR CHALLENGE QUESTION SECTION ---*/
+.spacing {
+    margin-top: 50px;
+}
+
+/* Highlighted Clickable Text */
+.highlight {
+    /* Change cursor on hover */
+    cursor: pointer;
+    color: transparent;
+    background-color: #444;
+    transition: color 0.3s ease;
+}
+
+
+/* Revealed class once clicked */
+.highlight.revealed {
+    color: rgb(161, 20, 91);
+    background-color: transparent;
+    font-weight: bold;
+
+}
+
+
+/* Link Styling --- LINK TO OTHER PAGE WHEN USER CLICKS ON THAT ---*/
+.highlight-link {
+    color: #0056b3;
+    text-decoration: none;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    text-decoration: underline;
+}
+
+.highlight-link:hover {
+    color: #4b0082;
+    background-color: #d3d3e0;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+
+
+/* Paragraph styling for interactive message */
+main p {
+    margin-left: 25px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+
+/* --- HEADER IMAGE THAT APPEARS DIRECTLY ABOVE THE HOME BUTTON --- */
+.header-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+/* LOGO FOR ALL PAGES */
+.logo {
+    width: 15%;
+    min-width: 200px;
+    height: auto;
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,88 @@
+/* Style for the sources or acknowledgment line */
+.sources {
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 10px;
+    font-style: italic;
+    text-align: left;
+
+}
+
+/* Additional Styles for Links and Layout */
+.sources ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 0;
+    margin-left: 40px;
+}
+
+.sources ul li {
+    margin-bottom: 5px;
+}
+
+.sources .sources-links a {
+    color: #007BFF;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.sources .sources-links a:hover {
+    text-decoration: underline;
+}
+
+.sources h2 {
+    margin-left: 25px;
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+
+.sources-note {
+    font-size: 0.9em;
+    color: #0c0b0b;
+    text-align: center;
+    margin-top: 0;
+    /* Adjust to make the text lower */
+    margin-bottom: 0;
+    /* Adjust margin below text */
+}
+
+hr {
+    margin-top: 50px;
+    /* Move the hr down */
+    margin-bottom: 10px;
+    /* Adjust the gap below the hr */
+    border: none;
+    height: 1px;
+    background-color: #0c0b0b;
+}
+
+.darkmode .sources-note {
+    font-size: 0.9em;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 0;
+    /* Adjust to make the text lower */
+    margin-bottom: 0;
+    /* Adjust margin below text */
+}
+
+.darkmode hr {
+    margin-top: 50px;
+    /* Move the hr down */
+    margin-bottom: 10px;
+    /* Adjust the gap below the hr */
+    border: none;
+    height: 1px;
+    background-color: #ffffff;
+}
+
+/* Dark mode adjustments */
+.darkmode .sources h2 {
+    color: white;
+}
+
+.darkmode .sources p {
+    color: #ddd;
+}
