@@ -61,24 +61,10 @@ d) When you are done, return to the main menu if not already there (option 0, en
 <br>
 
 
-## Workload distribution:
-* Josh Samadder:
-  - Wrote the code for all of the queries that the application is to be able to answer.
-  - Worked on the ER diagram and normalization analysis.
-  - Wrote the design.pdf document detailing the project.
-  - Worked on the README file.
-  
-* Hamad Ayaz:
-  - Wrote the code for the JDBC application’s interface to enable users to add, update and delete a member.
-  - Wrote the code for the JDBC application’s interface to enable users to add or delete a game.
-  - Worked on the ER diagram and normalization analysis.
-  - Created the UI for the user to perform the required functionalities and run the queries.
-  - Worked on the README file.
+## Authors:
+* Josh Samadder
+* Hamad Ayaz
+* Jenny Yu
 
-* Jenny Yu:
-  - Wrote the sql scripts to set up and populate the tables with data. 
-  - Wrote the code for the JDBC application’s interface to enable users to add or delete a prize.
-  - Worked on the ER diagram and normalization analysis.
-  - Worked on the README file.
 
 
