@@ -1,0 +1,50 @@
+.approve{
+    margin-right: 20x;
+    border-color: beige;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: beige;
+    color: brown;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-div {
+    max-width: 800px;
+    margin: 10px;
+}
+
+.about-heading {
+    color: brown;
+    font-size: 30px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.about-text {
+    color: brown;
+    font-size: 20px;
+}
+
+.actions{
+    margin-right: 20px;
+    border-color: beige;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: beige;
+    color: brown;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 14px;
+}
+.divActions{
+    align-items: center;
+}

@@ -1,0 +1,40 @@
+{
+    "users": [
+        {
+            "name": "jenny",
+            "password": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3",
+            "type": "author"
+        },
+        {
+            "name": "josh",
+            "password": "b3fa55f98fcfcaf6a15a7c4eb7cdd1b593693d3fef2fb7aec3b6768fd7c6a4ce",
+            "type": "reader",
+            "books": [
+                1,
+                11,
+                10,
+                12,
+                6
+            ]
+        },
+        {
+            "name": "posa",
+            "password": "a427727ce1eaa7e81e464e2e130dde7ea01d2e4cdb10fb337d1b2089b40630e3",
+            "type": "publisher"
+        },
+        {
+            "name": "William Shakespeare",
+            "password": "fb8e20fc2e4c3f248c60c39bd652f3c1347298bb977b8b4d5903b85055620603",
+            "type": "author"
+        },
+        {
+            "name": "reader",
+            "password": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+            "type": "reader",
+            "books": [
+                10,
+                18
+            ]
+        }
+    ]
+}

@@ -1,0 +1,324 @@
+{
+    "books": [
+        {
+            "book_id": 1,
+            "title": "Frog and Toad are Friends",
+            "author": "Arnold Label",
+            "type": "Fiction",
+            "rating": "10",
+            "num_available": 20
+        },
+        {
+            "book_id": 2,
+            "title": "The Odyssey",
+            "author": "Homer",
+            "type": "Poem",
+            "rating": 5,
+            "num_available": 7
+        },
+        {
+            "book_id": 3,
+            "title": "The Scarlet Letter",
+            "author": "Nathaniel Hawthorne",
+            "type": "Fiction",
+            "rating": 1,
+            "num_available": 10
+        },
+        {
+            "book_id": 4,
+            "title": "Everything is Tuberculosis",
+            "author": "John Green",
+            "type": "Non-Fiction",
+            "rating": null,
+            "num_available": 3
+        },
+        {
+            "book_id": 5,
+            "title": "Of Mice and Men",
+            "author": "John Steinbeck",
+            "type": "Fiction",
+            "rating": null,
+            "num_available": 8
+        },
+        {
+            "book_id": 6,
+            "title": "To Kill a Mockingbird",
+            "author": "Harper Lee",
+            "type": "Historical Fiction",
+            "rating": 8,
+            "num_available": 1
+        },
+        {
+            "book_id": 7,
+            "title": "The Tale of Peter Rabbit",
+            "author": "Beatrix Potter",
+            "type": "Fiction",
+            "rating": null,
+            "num_available": 2
+        },
+        {
+            "book_id": 8,
+            "title": "The Old Man and the Sea",
+            "author": "Ernest Hemingway",
+            "type": "Fiction",
+            "rating": 9,
+            "num_available": 5
+        },
+        {
+            "book_id": 9,
+            "title": "The Art of War",
+            "author": "Sun Tzu",
+            "type": "Non-Fiction",
+            "rating": 10,
+            "num_available": 12
+        },
+        {
+            "book_id": 10,
+            "title": "The Very Hungry Caterpillar",
+            "author": "Eric Carle",
+            "type": "Fiction",
+            "rating": 5,
+            "num_available": 15
+        },
+        {
+            "book_id": 11,
+            "title": "A Tale of Two Cities",
+            "author": "Charles Dickens",
+            "type": "Historical Fiction",
+            "rating": null,
+            "num_available": 10
+        },
+        {
+            "book_id": 12,
+            "title": "Hamlet",
+            "author": "William Shakespeare",
+            "type": "Tragedy",
+            "rating": 8,
+            "num_available": 9
+        },
+        {
+            "book_id": 13,
+            "title": "Romeo and Juliet",
+            "author": "William Shakespeare",
+            "type": "Tragedy",
+            "rating": 4,
+            "num_available": 10
+        },
+        {
+            "book_id": 14,
+            "title": "Macbeth",
+            "author": "William Shakespeare",
+            "type": "Fiction",
+            "rating": 9.5,
+            "num_available": 10
+        },
+        {
+            "book_id": 15,
+            "title": "The Glass Castle",
+            "author": "Jeannette Walls",
+            "type": "Non-Fiction",
+            "rating": 7,
+            "num_available": 19
+        },
+        {
+            "book_id": 16,
+            "title": "The Boy in the Striped Pajamas",
+            "author": "John Boyne",
+            "type": "Fiction",
+            "rating": null,
+            "num_available": 8
+        },
+        {
+            "book_id": 17,
+            "title": "The Book Thief",
+            "author": "Markus Zusak",
+            "type": "Historical Fiction",
+            "rating": 4.5,
+            "num_available": 7
+        },
+        {
+            "book_id": 18,
+            "title": "Othello",
+            "author": "William Shakespeare",
+            "type": "Fiction",
+            "rating": null,
+            "num_available": 19
+        },
+        {
+            "book_id": 19,
+            "title": "A Farewell to Arms",
+            "author": "Ernest Hemingway",
+            "type": "Historical Fiction",
+            "rating": 2,
+            "num_available": 5
+        },
+        {
+            "book_id": 20,
+            "title": "If You Give a Mouse a Cookie",
+            "author": "Laura Numeroff",
+            "type": "Fiction",
+            "rating": 10,
+            "num_available": 15
+        },
+        {
+            "book_id": 21,
+            "title": "If You Give a Moose a Muffin",
+            "author": "Laura Numeroff",
+            "type": "Fiction",
+            "rating": null,
+            "num_available": 15
+        },
+        {
+            "book_id": 22,
+            "title": "If You Give a Pig a Pancake",
+            "author": "Laura Numeroff",
+            "type": "Fiction",
+            "rating": null,
+            "num_available": 15
+        },
+        {
+            "book_id": 23,
+            "title": "War and Peace",
+            "author": "Leo Tolstoy",
+            "type": "Historical Fiction",
+            "rating": null,
+            "num_available": 4
+        },
+        {
+            "book_id": 24,
+            "title": "The Pout-Pout Fish",
+            "author": "Deborah Diesen",
+            "type": "Fiction",
+            "rating": null,
+            "num_available": 23
+        },
+        {
+            "book_id": 25,
+            "title": "The Iliad",
+            "author": "Homer",
+            "type": "Poem",
+            "rating": null,
+            "num_available": 6
+        },
+        {
+            "book_id": 26,
+            "title": "A Midsummer Night's Dream",
+            "author": "William Shakespeare",
+            "type": "Comedy",
+            "rating": null,
+            "num_available": 10
+        },
+        {
+            "book_id": 27,
+            "title": "King Lear",
+            "author": "William Shakespeare",
+            "type": "Tragedy",
+            "rating": null,
+            "num_available": 10
+        },
+        {
+            "book_id": 28,
+            "title": "Green Eggs and Ham",
+            "author": "Dr. Seuss",
+            "type": "Fiction",
+            "rating": 7.5,
+            "num_available": 45
+        },
+        {
+            "book_id": 29,
+            "title": "The Cat in the Hat",
+            "author": "Dr. Seuss",
+            "type": "Fiction",
+            "rating": 8.5,
+            "num_available": 30
+        },
+        {
+            "book_id": 30,
+            "title": "One Fish, Two Fish, Red Fish, Blue Fish",
+            "author": "Dr. Seuss",
+            "type": "Fiction",
+            "rating": 9,
+            "num_available": 35
+        },
+        {
+            "book_id": 31,
+            "title": "Where the Wild Things Are",
+            "author": "Maurice Sendak",
+            "type": "Fiction",
+            "rating": 10,
+            "num_available": 11
+        },
+        {
+            "book_id": 32,
+            "title": "The Stinky Cheese Man and Other Fairly Stupid Tales",
+            "author": "Jon Scieszka",
+            "type": "Fiction",
+            "rating": null,
+            "num_available": 9
+        },
+        {
+            "book_id": 33,
+            "title": "Twelfth Night",
+            "author": "William Shakespeare",
+            "type": "Comedy",
+            "rating": 6,
+            "num_available": 14
+        },
+        {
+            "book_id": 35,
+            "title": "Much Ado About Nothing",
+            "author": "William Shakespeare",
+            "type": "Comedy",
+            "rating": null,
+            "num_available": 6
+        },
+        {
+            "book_id": 35,
+            "title": "Julius Caesar",
+            "author": "William Shakespeare",
+            "type": "Tragedy",
+            "rating": 8,
+            "num_available": 14
+        },
+        {
+            "book_id": 36,
+            "title": "Flowers for Algernon",
+            "author": "Daniel Keyes",
+            "type": "Science Fiction",
+            "rating": null,
+            "num_available": 1
+        },
+        {
+            "book_id": 37,
+            "title": "Rainbow Fish",
+            "author": "Marcus Pfister",
+            "type": "Fiction",
+            "rating": null,
+            "num_available": 3
+        },
+        {
+            "book_id": 38,
+            "title": "Fifty Shades of Grey",
+            "author": "E.L. James",
+            "type": "Fiction",
+            "rating": null,
+            "num_available": 2
+        },
+        {
+            "book_id": 39,
+            "title": "The bean",
+            "author": "Jenny",
+            "type": "Fantasy",
+            "rating": null,
+            "num_available": 3
+        },
+        {
+            "book_id": 40,
+            "title": "The Cat in the Hat",
+            "author": "Dr. Seuss",
+            "type": "Fiction",
+            "rating": null,
+            "num_available": 6
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+/* LABEL STYLE */
+.page-label {
+    color: rgb(19, 103, 109);
+    font-size: 35px;
+    padding-left: 100px;
+}
+
+/* TABLE STLYE */
+#section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#books {
+    border: 2px solid brown;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 780px;
+    width: 700px;
+}
+
+td, th {
+    border: 1px solid brown;
+    border-collapse: collapse;
+}
+
+td {
+    color: brown;
+    font-size: 20px;
+    padding: 10px;
+}
+
+th {
+    border-bottom: 2px solid brown;
+    color: black;
+    font-size: 27px;
+    padding: 10px;
+}
+
+#no-books-message {
+    font-family: calibri;
+    font-size: 30px;
+}
+
+#user_books td:nth-child(3) {
+    text-align: center;
+}
+#books td:nth-child(4) {
+    text-align: center;
+}
+
+/* GENERAL STYLE */
+#general {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-bottom: 27px;
+}
+
+.general-stats {
+    font-size: 20px;
+    padding-left: 120px;
+    margin: 3px;
+}
+
+#get-rating {
+    color: black;
+}

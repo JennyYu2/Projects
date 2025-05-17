@@ -1,0 +1,76 @@
+/* LABEL STYLE */
+.page-label {
+    color: rgb(19, 103, 109);
+    font-size: 35px;
+    padding-left: 100px;
+}
+
+#section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#books {
+    border: 2px solid brown;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 800px;
+}
+
+td, th {
+    border: 1px solid brown;
+    border-collapse: collapse;
+}
+
+td {
+    color: brown;
+    font-size: 20px;
+    padding: 10px;
+}
+
+th {
+    border-bottom: 2px solid brown;
+    color: black;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.checkoutButton, .return_button {
+    font-family: calibri;
+    font-size: 18px;
+    background-color: rgb(247, 231, 194);
+    width: 100px;
+}
+
+.rating_input {
+    font-family: calibri;
+    font-size: 18px;
+    width: 80px;
+    text-align: center;
+}
+
+.centered_table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 30px;
+}
+
+#no-books-message {
+    font-family: calibri;
+    font-size: 30px;
+}
+
+#user_books td:nth-child(3) {
+    text-align: center;
+}
+#books td:nth-child(4) {
+    text-align: center;
+}
+#books td:nth-child(5) {
+    text-align: center;
+}
+

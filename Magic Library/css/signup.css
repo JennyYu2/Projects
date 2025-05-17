@@ -1,0 +1,88 @@
+/* FORM STYLE */
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fields {
+    background-color: brown; 
+    padding: 20px; 
+    border-radius: 15px;
+    margin: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    width: 400px;
+}
+
+label {
+    color: beige;
+    font-size: 25px;
+}
+
+input {
+    background-color: white;
+    font-size: 18px;
+    padding: 8px 8px;
+	border: 1px solid rgb(19, 103, 109);
+	border-radius: 10px;
+	border-color: rgb(19, 103, 109);
+
+}
+
+input:hover {
+	border-color: rgb(19, 103, 109);
+	border-width: 2.5px;	
+}
+
+input:focus {
+	outline: none;
+	border-color: rgb(19, 103, 109);
+	border-width: 2.5px;	
+}
+
+select {
+	font-size: 18px;
+	padding: 8px 8px;
+	border: 1px solid rgb(19, 103, 109);
+	border-radius: 10px;
+	border-color: rgb(19, 103, 109);
+}
+
+select:hover {
+	border-color: rgb(19, 103, 109);
+	border-width: 2.5px;		
+}
+select:focus {
+	outline: none;
+	border-color: rgb(19, 103, 109);
+	border-width: 2.5px;	
+}
+
+button {
+	color: rgb(19, 103, 109);
+	background-color: beige;
+	border: 1px solid rgb(19, 103, 109);
+	border-radius: 20px;
+    padding: 3px 20px;
+	align-items: center;
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+	padding: 5px 12px;
+	width: auto; 
+	display: flex;
+	cursor: pointer;
+}
+
+button:hover {
+	transform: scale(1.02);
+	background-color: rgb(225, 225, 201);
+	cursor: pointer;
+}
+
+
+/* LABEL STYLE */
+.page-label {
+    color: rgb(19, 103, 109);
+    font-size: 35px;
+    padding-left: 100px;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>View stats</title>
+
+        <link rel="stylesheet" href="../../css/view_stats.css"> <!-- style specific to the view_stats page -->
+        <link rel="stylesheet" href="../../css/page_format.css"> <!-- General format for all pages -->
+
+        <script src="../../js/get_stats.js" defer></script> <!-- javascript -->
+        <script src="../../js/mousetrail.js" defer></script> <!-- mousetrail -->
+    </head>
+
+    <body onload="getStats()">
+        <nav class="navbar">
+            <div class="navdiv">
+                <div class="navname"><a class="navname" href="author_home.html">Magical Library</a></div>
+                
+                <ul class="navul">
+                    <li class="navli"><a href="author_home.html">Home</a></li>
+                    <li class="navli"><a href="author_books.html">See books</a></li>
+                    <li class="navli"><a href="submit_books.html">Submit books</a></li>
+                    <li class="navli"><a href="author_contact.html">Contact us</a></li>
+                    <li class="navli"><a href="../logout.html" class="logout-button">Logout</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <header>
+            <img src="../../images/author.jpg" alt="Image of a library" class="header-image">
+        </header>
+
+        <h2 class="page-label">Stats on your books</h2>
+
+        <section id="general">
+            <h3 class="general-stats" id="gen1">Total books in the library: </h3>
+            <h3 class="general-stats" id="gen2">Average rating across all books: </h3>
+            <h3 class="general-stats" id="gen3">Highest average rated genre(s): </h3>
+        </section>
+
+        <section id="section">
+            <table id="books">
+                <tr>
+                    <th>Title</th>
+                    <th>Genre</th>
+                    <th><a href="#" id="get-rating" onclick="sortRating(event)">Rating</a></th>
+                </tr>
+            </table>
+        </section>
+
+        <footer>    
+            <h2>*• About This Site ·＊*•✩•*˚</h2>
+            <p>This website is a place of magic and wonder for all walks of life</p>
+    
+            <div class="footer-links">
+                <a href="author_contact.html">Contact Us</a> |
+                Email: <a href="filler for now">magiclibrary@gmail.com</a>
+            </div>
+    
+            <p>&copy; 2025 Beans and Posa. All Rights Reserved.</p>
+        </footer>
+    </body>
+</html>

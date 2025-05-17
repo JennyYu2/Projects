@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Approve Books</title>
+
+        <link rel="stylesheet" href="../../css/page_format.css"> <!-- General format for all pages -->
+        <link rel="stylesheet" href="../../css/table_style.css"> <!-- style for the table -->
+        <link rel="stylesheet" href="../../css/publisher_style.css">
+
+        <script src="../../js/books_to_be_published.js" defer></script> <!-- javascript -->
+        <script src="../../js/mousetrail.js" defer></script> <!-- mousetrail -->
+    </head>
+
+    <body onload="getBooks()">
+        <nav class="navbar">
+            <div class="navdiv">
+                <div class="navname"><a class="navname" href="publisher_home.html">Magical Library</a></div>
+                
+                <ul class="navul">
+                    <li class="navli"><a href="publisher_home.html">Home</a></li>
+                    <li class="navli"><a href="publisher_books.html">See books</a></li>
+                    <li class="navli"><a href="edit_library.html">Edit Library</a></li>
+                    <li class="navli"><a href="publisher_contact.html">Contact us</a></li>
+                    <li class="navli"><a href="../logout.html" class="logout-button">Logout</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <header>
+            <img src="../../images/publisher.avif" alt="Image of a library" class="header-image">
+        </header>
+
+        <h2 class="page-label">Edit Library</h2>
+
+        <section class="about">
+            <div class="about-div">
+                <h2 class="about-heading">Library options</h2>
+                <p class="about-text"> Approve books to be put into the library. All information about the books is displayed in the table below
+                </p>
+            </div>
+        </section>
+
+        <section id="section">
+            <table id="books">
+                <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Genre</th>
+                <th>Copies</th>
+                <th>Description</th>
+                <th>Actions</th>
+            </tr>
+            </table>
+        </section>
+        
+        <footer>    
+            <h2>*• About This Site ·＊*•✩•*˚</h2>
+            <p>This website is a place of magic and wonder for all walks of life</p>
+    
+            <div class="footer-links">
+                <a href="publisher_contact.html">Contact Us</a> |
+                Email: <a href="filler for now">library@gmail.com</a>
+            </div>
+    
+            <p>&copy; 2025 Beans and Posa. All Rights Reserved.</p>
+        </footer>
+    </body>
+</html>

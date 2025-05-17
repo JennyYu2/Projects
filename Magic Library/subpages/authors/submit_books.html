@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Submit books</title>
+
+        <link rel="stylesheet" href="../../css/submit_books.css"> <!-- style specific to the submit_books page -->
+        <link rel="stylesheet" href="../../css/page_format.css"> <!-- General format for all pages -->
+
+        <script src="../../js/submit_books.js" defer></script> <!-- javascript -->
+        <script src="../../js/mousetrail.js" defer></script> <!-- mousetrail -->
+    </head>
+
+    <body>
+        <nav class="navbar">
+            <div class="navdiv">
+                <div class="navname"><a class="navname" href="author_home.html">Magical Library</a></div>
+                
+                <ul class="navul">
+                    <li class="navli"><a href="author_home.html">Home</a></li>
+                    <li class="navli"><a href="author_books.html">See books</a></li>
+                    <li class="navli"><a href="view_stats.html">View stats</a></li>
+                    <li class="navli"><a href="author_contact.html">Contact us</a></li>
+                    <li class="navli"><a href="../logout.html" class="logout-button">Logout</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <header>
+            <img src="../../images/author.jpg" alt="Image of a library" class="header-image">
+        </header>
+
+        <h2 class="page-label">Submit your book for review!</h2>
+
+        <section class="submit-form">
+            <form method="POST" action="/submit_book_action">
+                <div class="fields">
+                    <p>
+                        <label>Title of Book: </label>
+                        <input type="text" id="title" name="title" placeholder="The Odyssey" aria-label="title entry box" autocomplete="off" required>
+                    </p>
+    
+                    <p>
+                        <label>Author: </label>
+                        <input type="text" id="author" name="author" placeholder="Homer" aria-label="author entry box" autocomplete="off" required>
+                    </p>
+                    
+                    <p>
+                        <label>Genre: </label>
+                        <input type="text" id="genre" name="genre" placeholder="Poem" aria-label="genre entry box" autocomplete="off" required>
+                    </p>
+
+                    <p>
+                        <label>Number of Copies: </label>
+                        <input type="number" id="copies" name="copies" aria-label="copies entry box" autocomplete="off" required>
+                    </p>
+
+                    <p>
+                        <label>Short description: </label>
+                        <textarea id="description" name="description" rows="6" cols="50" placeholder="Brief description of your book"
+                        aria-label="book description entry box"autocomplete="off" required></textarea>
+                    </p>
+    
+                    <button type="submit">Submit book</button>
+                </div>
+            </form>
+        </section>
+
+        <footer>    
+            <h2>*• About This Site ·＊*•✩•*˚</h2>
+            <p>This website is a place of magic and wonder for all walks of life</p>
+    
+            <div class="footer-links">
+                <a href="author_contact.html">Contact Us</a> |
+                Email: <a href="filler for now">magiclibrary@gmail.com</a>
+            </div>
+    
+            <p>&copy; 2025 Beans and Posa. All Rights Reserved.</p>
+        </footer>
+    </body>
+</html>
