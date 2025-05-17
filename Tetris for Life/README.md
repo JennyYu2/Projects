@@ -10,7 +10,9 @@ Jenny [jennyyu@arizona.edu](mailto:jennyyu@arizona.edu)
 
 Necessary files and folders: index.html, css folder, images folder, js folder, music folder, subpages folder
 
-This project is a collaboratively built website for the course at the University of Arizona ISTA 329 (Introduction to Web Design). The IDE used for development was Visual Studio Code. The operating system used for the completion of this project was Windows 10. The primary browser used for testing and debugging was Chrome, please view in Chrome for the best and intended experience. 
+This project is a collaboratively built website with interactive activities for the user. The IDE used for development was Visual Studio Code. The operating system used for the completion of this project was Windows 10. The primary browser used for testing and debugging was Chrome, please view in Chrome for the best and intended experience. 
+
+## How to run
 
 To view the website right click on the file "index.html" and select "open with Chrome," doing so will open a Chrome tab to the website's home page.  
 

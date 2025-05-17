@@ -1,4 +1,4 @@
-Go webscraper
+Go Webscraper
 ------------
 
 Authors: Hamad Ayaz, Cj Chen, Jenny Yu, May Niu
