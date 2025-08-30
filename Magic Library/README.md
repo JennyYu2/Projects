@@ -1,7 +1,7 @@
 # ₊ ⊹ Magic Library ⊹₊ ⋆
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/37b1ce4f-6c68-44f6-b46d-50abf4e00c91" width="300" height="300"/>
+<div align="center">  
+  ![Magic library](magic%20library%20website/images/readme.jpg)
 </div>
 
 Welcome to the **Magic Library**!  
