@@ -1,7 +1,7 @@
 # ₊ ⊹ Magic Library ⊹₊ ⋆
 
 <div align="center">  
-  ![Magic library](magic%20library%20website/images/readme.jpg)
+  <img src="magic%20library%20website/images/readme.jpg" alt="Magic library" width="300" height="300">
 </div>
 
 Welcome to the **Magic Library**!  
