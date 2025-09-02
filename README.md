@@ -9,19 +9,24 @@ Each project folder contains its own code, documentation, and notes.
 
 ### [C Compiler](./C%20Compiler)
 - Converts C code into **MIPS assembly code**  
-- **Language:** C  
+- **Language:** C
+  
 ### [Go Web Scraper](./GO%20Web%20Scraper)
 - Scrapes code snippets in Java, Python, and C from **GeeksforGeeks, W3Schools, and StackOverflow**  
-- **Language:** Go  
+- **Language:** Go
+  
 ### [Magic Library](./Magic%20Library)
 - Web application where users log in as **Reader, Author, or Publisher** to access library-inspired features  
-- **Languages:** HTML, CSS, JavaScript  
+- **Languages:** HTML, CSS, JavaScript
+  
 ### [SQL Database Management](./SQL%20Database%20Management)
 - Arcade simulation that interacts with a database using **SQL queries**  
-- **Language:** SQL  
+- **Language:** SQL
+  
 ### [Slaydoku](./Slaydoku)
 - Classic **Sudoku game** with a graphical interface  
-- **Language:** Java  
+- **Language:** Java
+  
 ### [Tetris for Life](./Tetris%20for%20Life)
 - Fun and informational website where users can **learn about Tetris**  
 - **Languages:** HTML, CSS, JavaScript
