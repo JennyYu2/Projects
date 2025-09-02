@@ -1,4 +1,5 @@
 # Projects
+
 Welcome! This repository is a collection of projects by Jenny, written in various programming languages and covering different use cases — from compilers to games to web apps.  
 Each project folder contains its own code, documentation, and notes.
 ---
