@@ -1,9 +1,12 @@
 # Projects
 
 Welcome! This repository is a collection of projects by Jenny, written in various programming languages and covering different use cases — from compilers to games to web apps.  
-Each project folder contains its own code, documentation, and notes.
+Each project folder contains its own code, documentation, and notes. 
+
 ---
+
 ## Projects
+
 ### [C Compiler](./C)
 - Converts C code into **MIPS assembly code**  
 - **Language:** C  
@@ -21,12 +24,16 @@ Each project folder contains its own code, documentation, and notes.
 - **Language:** Java  
 ### [Tetris for Life](./Tetrisforlife)
 - Fun and informational website where users can **learn about Tetris**  
-- **Languages:** HTML, CSS, JavaScript  
+- **Languages:** HTML, CSS, JavaScript
+  
 ---
+
 ## Tech Used
 - **Languages:** C, Go, Java, JavaScript, SQL, HTML, CSS  
-- **Concepts:** Compilers, Web Scraping, Databases, Frontend Development, Game Development  
+- **Concepts:** Compilers, Web Scraping, Databases, Frontend Development, Game Development
+  
 ---
+
 ## About Me
 Hi, I’m Jenny!  
 - I’m a passionate and creative developer with experience across a wide range of programming languages.  
