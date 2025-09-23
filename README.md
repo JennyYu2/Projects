@@ -41,8 +41,8 @@ From compilers to games to web apps, each project folder contains its own code, 
 
 ##  ✰ About Me (ᵔᵕᵔ)◜
 Hi, I’m Jenny!  
-I’m a passionate and creative developer with experience across a wide range of programming languages.  
-My specialty is **Web Development**, but I'm also skilled in Java, Python, C and SQL!
+I’m a passionate and creative developer with experience across a wide range of programming languages. <br>
+My specialty is **Web Development**, but I'm also skilled in Java, Python, C and SQL! <br>
 I love exploring different technologies through side projects and learning more about how technology can be used to solve real-world problems in creative ways.
 - Find me on [GitHub](https://github.com/JennyYu2)
-- Check out my [Portfolio](https://jennyyu2.github.io)
+- Check out my [Portfolio](https://jennyyu2.github.io) -- GitHub repo linked [here](https://github.com/JennyYu2/jennyyu2.github.io)
