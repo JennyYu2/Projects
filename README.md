@@ -1,7 +1,7 @@
-# Jenny's Projects
+# Jenny's Projects *ੈ✩‧₊˚
 
-Welcome! This repository is a collection of projects, written in various programming languages and covering different use cases -- from compilers to games to web apps.  
-Each project folder contains its own code, documentation, and notes. 
+Welcome! This repository is a collection of projects that are written in various programming languages and covering different use cases. <br>
+From compilers to games to web apps, each project folder contains its own code, documentation, and notes. 
 
 ---
 
@@ -39,9 +39,10 @@ Each project folder contains its own code, documentation, and notes.
   
 ---
 
-## About Me
+##  ✰ About Me (ᵔᵕᵔ)◜
 Hi, I’m Jenny!  
-- I’m a passionate and creative developer with experience across a wide range of programming languages.  
-- My main focus is **Web Development**, but I also love exploring different technologies through side projects.
+I’m a passionate and creative developer with experience across a wide range of programming languages.  
+My specialty is **Web Development**, but I'm also skilled in Java, Python, C and SQL!
+I love exploring different technologies through side projects and learning more about how technology can be used to solve real-world problems in creative ways.
 - Find me on [GitHub](https://github.com/JennyYu2)
 - Check out my [Portfolio](https://jennyyu2.github.io)
