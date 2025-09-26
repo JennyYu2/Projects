@@ -33,9 +33,26 @@ This compiler supports variable declarations, expressions, statements, loops, fu
 2. parser.c recursively builds the AST (Abstract Syntax Tree) by creating nodes, attaching them together by calling the different methods.
    - Semantic checking is also done to ensure that the input is valid.
 3. parser.c traverses the AST and builds three address code as a linked list.
-4. parser.c traverses the three address code linked list and generates MIPS code. 
+4. parser.c traverses the three address code linked list and generates MIPS code.
 
-(Everything is done in parser.c for now but I do plan to split up the work into different files so it's more organized T-T)
+  Source Code
+     │
+     v
+  Scanner -----------> Tokens
+     │
+     v
+  Parser ------------> Abstract Syntax Tree (AST)
+     │
+     v
+ Semantic Analysis --> Checked AST + Symbol Table
+     │
+     v
+ Intermediate Code --> Three Address Code (TAC)
+     │
+     v
+ Code Generation ----> MIPS Assembly
+
+(Everything is done in parser.c for now but I do plan to split up the work into different files so it's more organized!!)
 
 ---
 
@@ -48,10 +65,20 @@ This compiler supports variable declarations, expressions, statements, loops, fu
 
 ---
 
-## Examples
+## Example functionalities
+- 
 
 
 ---
 
 ## Files
+- scanner.c / scanner.h --> Gets tokens from the input and returns the types
+- parser.c / parser.h --> Main code. Recursive descent parser, builds the AST, TAC, generates MIPS
+- AST_node.c / AST_node.h --> Data structure for AST nodes
+- ast.c / ast.h --> Defines and returns AST node information
+- ast-print.c --> Prints the AST (for debugging)
+- symbol_table.c / symbol_table.h --> Defines symbol table and operations
+- three_address.c / three_address.h --> Defines data structure and methods for three adress code 
+- driver.c --> Entry point of the compiler
+- Makefile --> Build the compiler
 
