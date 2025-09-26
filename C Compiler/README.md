@@ -5,12 +5,14 @@
 ---
 ## Jump to:
 
-[Overview](#overview)
-[Features](#features)
-[Pipeline](#pipeline)
-[Build and run](#build-and-run)
-[Examples](#examples)
+[Overview](#overview) <br>
+[Features](#features) <br>
+[Pipeline](#pipeline) <br>
+[Build and run](#build-and-run) <br>
+[Examples](#examples) <br>
 [Files](#files)
+
+--- 
 
 ## Overview:
 
@@ -138,6 +140,7 @@ sw   $t0, x
 - `three_address.c` / `three_address.h` --> Defines data structure and methods for three adress code 
 - `driver.c` --> Entry point of the compiler
 - `Makefile` --> Build the compiler
+
 
 
 
