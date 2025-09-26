@@ -35,6 +35,7 @@ This compiler supports variable declarations, expressions, statements, loops, fu
 3. parser.c traverses the AST and builds three address code as a linked list.
 4. parser.c traverses the three address code linked list and generates MIPS code.
 
+``` 
   Source Code
      │
      v
@@ -51,23 +52,36 @@ This compiler supports variable declarations, expressions, statements, loops, fu
      │
      v
  Code Generation ----> MIPS Assembly
+```
 
 (Everything is done in parser.c for now but I do plan to split up the work into different files so it's more organized!!)
 
 ---
 
 ## To run
-
-- Use the Makefile: type make compiler
-- run the executable directly with C code: ./compiler int x;
-- or run the executable with a file that contains C code: ./compiler example.txt
-  - example.txt: int x; x = 1 + 2 *3;
+0. Clone this repository or download all files
+1. To build:
+```
+make compile
+```
+2. Run it directly from command line:
+```
+./compile int x;
+```
+3. Run it with a file:
+```
+./compile example.txt
+```
+   - example.txt:
+     ```
+      int x;
+      x = 1 + 2 * 3;
+     ```
 
 ---
 
 ## Example functionalities
-- 
-
+- Input: 
 
 ---
 
@@ -81,4 +95,5 @@ This compiler supports variable declarations, expressions, statements, loops, fu
 - three_address.c / three_address.h --> Defines data structure and methods for three adress code 
 - driver.c --> Entry point of the compiler
 - Makefile --> Build the compiler
+
 
