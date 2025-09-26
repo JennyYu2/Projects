@@ -34,7 +34,7 @@ This compiler supports variable declarations, expressions, statements, loops, fu
    - Semantic checking is also done to ensure that the input is valid.
 3. parser.c traverses the AST and builds three address code as a linked list.
 4. parser.c traverses the three address code linked list and generates MIPS code.
-
+5. 
 ``` 
   Source Code
      │
@@ -59,28 +59,45 @@ This compiler supports variable declarations, expressions, statements, loops, fu
 ---
 
 ## To run
+
 0. Clone this repository or download all files
 1. To build:
-```
+``` 
 make compile
 ```
+
 2. Run it directly from command line:
 ```
 ./compile int x;
 ```
+
 3. Run it with a file:
 ```
 ./compile example.txt
 ```
-   - example.txt:
-     ```
-      int x;
-      x = 1 + 2 * 3;
-     ```
+
+```
+example.txt
+
+int x;
+x = 1 + 2 * 3;
+```
+  
+4. Run it with "--chk_decl" for semantic checking, "--print_ast" to print out the AS and "--gen_code" to generate code
+``` 
+./compile --chk_decl --print_ast --gen_code int x;
+```
+Output:
+```
+x
+
+sw   $t0, x
+```
 
 ---
 
 ## Example functionalities
+
 - Input: 
 
 ---
@@ -95,5 +112,6 @@ make compile
 - three_address.c / three_address.h --> Defines data structure and methods for three adress code 
 - driver.c --> Entry point of the compiler
 - Makefile --> Build the compiler
+
 
 
