@@ -7,6 +7,8 @@
 - Buddy [buddy@arizona.edu](buddy@arizona.edu)
 - Tay [thollman@arizona.edu](mailto:thollman@arizona.edu)
 
+*December 2024*
+
 --- 
 
 ## Notes
