@@ -1,5 +1,13 @@
 # SQL Database Management
 
+## Authors:
+
+* Hamad Ayaz
+* Josh Samadder
+* Jenny Yu
+
+---
+
 ## Instructions for running the program:
 
 i.) Go to the root directory and compile all .java files using:
@@ -59,12 +67,6 @@ d) When you are done, return to the main menu if not already there (option 0, en
 
 <br>
 <br>
-
-
-## Authors:
-* Josh Samadder
-* Hamad Ayaz
-* Jenny Yu
 
 
 
