@@ -1,7 +1,6 @@
 # C-- Compiler
 
-### Author: Jenny Yu 
-#### April 2024
+### Author: Jenny Yu *April 2024*
 
 ---
 ## Jump to:
@@ -141,6 +140,7 @@ sw   $t0, x
 - `three_address.c` / `three_address.h` --> Defines data structure and methods for three adress code 
 - `driver.c` --> Entry point of the compiler
 - `Makefile` --> Build the compiler
+
 
 
 
