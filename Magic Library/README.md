@@ -8,6 +8,14 @@ Welcome to the **Magic Library**!
 This is a website inspired by a real-world scenario of a library where users can browse, submit, and manage books.  
 Users can log in as **Readers**, **Authors**, or **Publishers**, and utilize the different functionalities.
 
+## Authors:
+
+- Jenny Yu
+- Josh Samadder
+- Mariposa Delany
+
+*March 2025*
+
 ---
 
 ## Table of Contents
