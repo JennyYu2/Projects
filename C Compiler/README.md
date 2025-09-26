@@ -3,6 +3,14 @@
 ### Author: Jenny Yu
 
 ---
+## Jump to:
+
+[Overview](#overview)
+[Features](#features)
+[Pipeline](#pipeline)
+[Build and run](#build-and-run)
+[Examples](#examples)
+[Files](#files)
 
 ## Overview:
 
@@ -13,6 +21,7 @@ It is designed as a learning project to demonstrate the main phases of compilati
 - Semantic analysis  
 - Intermediate code generation  
 - Target code generation  
+<br>
 
 **Currently supports:** 
 - Variable declarations  
@@ -20,8 +29,6 @@ It is designed as a learning project to demonstrate the main phases of compilati
 - Statements  
 - Loops  
 - Function calls
-
-This compiler supports variable declarations, expressions, statements, loops, function calls, etc., producing equivalent MIPS assembly output.
 
 ---
 
@@ -67,7 +74,7 @@ This compiler supports variable declarations, expressions, statements, loops, fu
 
 ---
 
-## Build and run the compiler
+## Build and run
 
 ### 0. Setup:
 Clone this repository or download all files
@@ -131,6 +138,7 @@ sw   $t0, x
 - `three_address.c` / `three_address.h` --> Defines data structure and methods for three adress code 
 - `driver.c` --> Entry point of the compiler
 - `Makefile` --> Build the compiler
+
 
 
 
