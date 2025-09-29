@@ -1,12 +1,20 @@
 # Salydoku Game
 
-Authors: 
+## Authors: 
 - Jenny Yu
 - Josh Samadder
 - Ricky Su
 - Chia-En Chang
 
 *April 2023*
+
+---
+
+Table of Contents:
+- [Overview](#overview)
+- [Features](#features)
+- [How to run](#how-to-run-the-program)
+- [Object Oriented Programming principles used](#object-oriented-principles)
 
 ---
 
@@ -28,8 +36,13 @@ Sudoku game with built in GUI where the user can play a game of Sudoku on easy, 
 
 ## How to run the program
 
-1. Download all the files from the Slaydoku folder
+1. Download all the files from the Slay folder
 2. javac *.java
 3. java SudokuGUI.java
 4. Window should pop up to play the game
 
+---
+
+## Object Oriented Principles
+
+- Model View COntroller (MVC)
