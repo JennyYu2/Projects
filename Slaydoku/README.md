@@ -10,39 +10,87 @@
 
 ---
 
-Table of Contents:
+## Table of Contents:
 - [Overview](#overview)
-- [Features](#features)
+- [Gameplay Features](#gameplay-features)
+- [Technical Features](#technical-features)
 - [How to run](#how-to-run-the-program)
-- [Object Oriented Programming principles used](#object-oriented-principles)
+- [Object-Oriented Principles](#object-oriented-principles)
 
 ---
 
 ## Overview
+[Back to top](#table-of-contents)
 
-Sudoku game with built in GUI where the user can play a game of Sudoku on easy, medium or hard mode. Users can also log in to save their best time
+Salydoku is a Sudoku game built in Java with a JavaFX GUI. <br> 
+Players can select from easy, medium, or hard difficulty levels and track their progress with a built-in timer. <br> 
+The game also includes a login system where users can save their best times, view their game history, and track wins and losses! 
 
----
-
-## Features
-
-- 9x9 Sudoku grid made with JavaFx
-- Recursivly creates new boards that match dificulty levels
-- "Check" and "Win" functionality
-- Timer keeps track of how long it takes to solve a board
-- Users can log in a see their high scores and the number of games they have played and won
+See the video in this repo for a demo of the functionalities!
 
 ---
 
-## How to run the program
+## Gameplay Features
+[Back to top](#table-of-contents)
 
-1. Download all the files from the Slay folder
-2. javac *.java
-3. java SudokuGUI.java
-4. Window should pop up to play the game
+- Play on a 9x9 Sudoku grid
+- A simple animation plays when the game is first launched
+- Choose from easy, medium, or hard difficulty levels
+- **Clear Board** button clears all user input on the current board
+- **New Game** button starts a new game
+- **Check Board** button validates the user's inputs on the board. Incorrect inputs will be highlighted in red
+- **Stats** button allows logged in users to see their stats:
+  - Best time
+  - Games Played
+  - Games won
+- **Give Up** button autocompletes the current board
+- Built-in timer to track completion time
+- **Pause** button will pause the timer
+- Cute GIF plays when a user successfully completes a game
+- Users can log into an existing account or as a new user
 
 ---
 
-## Object Oriented Principles
+## Technical Features
+[Back to top](#table-of-contents)
 
-- Model View COntroller (MVC)
+- Built using Java and JavaFX
+- Recursively generates new Sudoku boards
+- Number of blank spaces correlates to difficulty level
+- Uses Java's `Serializable` interface to store user login information and user stats
+- Implements a clear separation between game logic, user interface, and data management.
+- Validates Sudoku boards through backtracking algorithms
+- Incorporates exception handling for invalid inputs and file I/O
+- GUI designed with event-driven programming (button clicks, timer updates, etc.)
+  
+---
+
+## How to Run the Program
+[Back to top](#table-of-contents)
+
+0. Prerequisites
+   - Java 8 or later
+   - JavaFX installed and added to your classpath
+     
+1. Clone this repository or download all the files
+2. Navigate to the project folder and compile the program:
+```
+javac *.java
+```
+3. Run the program:
+```
+java SudokuGUI
+```
+4. A game window will pop up and you can start playing!
+
+---
+
+## Object-Oriented Principles
+[Back to top](#table-of-contents)
+
+- Model-View-Controller (MVC) design pattern
+- Observer design pattern
+- Encapsulation of game logic, board state, and user data
+- Inheritance for shared GUI components and behaviors
+- Polymorphism in puzzle generation and difficulty settings
+
