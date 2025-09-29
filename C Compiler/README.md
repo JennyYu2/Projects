@@ -106,7 +106,7 @@ Example:
 ``` 
 a. ./compile --chk_decl --gen_code int x;
 
-b. ./compile --print-ast int y;
+b. ./compile --print_ast int y;
 ```
 
 Output:
@@ -384,6 +384,7 @@ Output here
 - `three_address.c` / `three_address.h` --> Defines data structure and methods for three adress code 
 - `driver.c` --> Entry point of the compiler
 - `Makefile` --> Build the compiler
+
 
 
 
