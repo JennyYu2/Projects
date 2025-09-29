@@ -123,16 +123,9 @@ y
 ## Examples
 [Back to top](#jump-to)
 
---
-
-[Expressions](#expressions) <br>
-[Function Calls](#function-calls) <br>
-[Loops](#loops) <br>
-[Return statements](#return-statements) <br>
-[Recursion](#recursion) <br>
-
-### Expressions
-
+<details>
+<summary><h3>Expressions</h3></summary>
+	
 i. Expressions containing multiple occurrences of an operator
 
 **Input:**
@@ -165,8 +158,10 @@ int main() {
 ```
 Output code here
 ```
+</details>
 
-### Function calls
+<details>
+<summary><h3>Function calls</h3></summary>
 
 i. expressions containing function calls
 
@@ -237,8 +232,10 @@ int main() {
 ```
 Output code here
 ```
+</details>
 
-### Loops
+<details>
+<summary><h3>Loops</h3></summary>
 
 i. WHILE loop
 
@@ -264,8 +261,10 @@ int main() {
 ```
 Output here
 ```
+</details>
 
-### Return statements
+<details>
+<summary><h3>Return statements</h3></summary>
 
 i. RETURN statements containing several different operators
 
@@ -316,8 +315,10 @@ int main() {
 ```
 Output here
 ```
+</details>
 
-### Recursion
+<details>
+<summary><h3>Recursion</h3></summary>
 
 i. Recursive functions
 
@@ -367,6 +368,7 @@ int main() {
 ```
 Output here
 ```
+</details>
 
 ---
 
@@ -382,5 +384,6 @@ Output here
 - `three_address.c` / `three_address.h` --> Defines data structure and methods for three adress code 
 - `driver.c` --> Entry point of the compiler
 - `Makefile` --> Build the compiler
+
 
 
