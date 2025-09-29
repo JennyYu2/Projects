@@ -4,7 +4,8 @@
   <img src="magic%20library%20website/images/readme.jpg" alt="Magic library" width="300" height="300">
 </div>
 
-Welcome to the **Magic Library**!  
+
+<br>Welcome to the **Magic Library**!  <br>
 This is a website inspired by a real-world scenario of a library where users can browse, submit, and manage books.  
 Users can log in as **Readers**, **Authors**, or **Publishers**, and utilize the different functionalities.
 
