@@ -114,30 +114,35 @@ x = 1 + 2 * 3;
 
 Example:
 ``` 
-./compile --chk_decl --print_ast --gen_code int x;
+a. ./compile --chk_decl --gen_code int x;
+
+b. ./compile --print-ast int y;
 ```
+
 Output:
 ```
-x
-
+a. 
 sw   $t0, x
+
+b.
+y
 ```
 
 ---
 
 ## Examples
 
-[Expressions](###expressions) <br>
-[Function Calls](###function-calls) <br>
-[Loops](###loops) <br>
-[Return statements](###return-statements) <br>
-[Recursion](###recursion) <br>
+[Expressions](#expressions) <br>
+[Function Calls](#function-calls) <br>
+[Loops](#loops) <br>
+[Return statements](#return-statements) <br>
+[Recursion](#recursion) <br>
 
 ### Expressions
 
 i. Expressions containing multiple occurrences of an operator
 
-Input
+Input:
 ```
 int u, v, w;
 
@@ -163,54 +168,16 @@ int main() {
 }
 ```
 
-Output
+Output:
 ```
 Output code here
 ```
 
 ### Function calls
 
-i. Expressions containing function calls and several of a single kind of operator
+i. expressions containing function calls
 
-Input 
-```
-int x, y;
-
-int one() { return 1; }
-
-int two() {
-    return one() + one();
-}
-
-int main() {
-    int u, v;
-
-    x = one();
-    u = two();
-    
-    u = one() + two() + one() + two();
-    println(u);
-    
-    v = one() - two() - one() - two();
-    println(v);
-
-    v = one() * two() * one() * two();
-    println(v);
-
-    v = 10 / two() / one() / two();
-    println(v);
-
-}
-```
-
-Output
-```
-Output code here
-```
-
-ii. expressions containing function calls
-
-Input
+Input:
 ```
 int x, y, z;
 
@@ -242,14 +209,14 @@ int main() {
 }
 ```
 
-Output
+Output:
 ```
 Output code here
 ```
 
-iii. IF statements containing function calls
+ii. IF statements containing function calls
 
-Input
+Input:
 ```
 int f(int x) { return -1+x+3; }
 int g(int x) { return x+2; }
@@ -273,7 +240,7 @@ int main() {
 }
 ```
 
-Output
+Output:
 ```
 Output code here
 ```
@@ -282,7 +249,7 @@ Output code here
 
 i. WHILE loop
 
-Input
+Input:
 ```
 int x;
 
@@ -300,7 +267,7 @@ int main() {
 }
 ```
 
-Output
+Output:
 ```
 Output here
 ```
@@ -309,7 +276,7 @@ Output here
 
 i. RETURN statements containing several different operators
 
-Input
+Input:
 ```
 int f1(int x, int y, int z, int w) {
     return x + y + z + w;
@@ -352,16 +319,16 @@ int main() {
 }
 ```
 
-Output
+Output:
 ```
 Output here
 ```
 
 ### Recursion
 
-i. Recursion
+i. Recursive functions
 
-Input 
+Input:
 ```
 int factorial(int n) {
     if (n <= 0) {
@@ -403,7 +370,7 @@ int main() {
 }
 ```
 
-Output
+Output:
 ```
 Output here
 ```
@@ -420,6 +387,7 @@ Output here
 - `three_address.c` / `three_address.h` --> Defines data structure and methods for three adress code 
 - `driver.c` --> Entry point of the compiler
 - `Makefile` --> Build the compiler
+
 
 
 
