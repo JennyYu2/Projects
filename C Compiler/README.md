@@ -16,8 +16,8 @@
 
 --- 
 
-## Overview:  
-[Back to contents](#jump-to)
+## Overview
+[Back to top](#jump-to)
 
 This project is a compiler that translates a subset of the C language (C--) into MIPS assembly code.
 It is designed as a learning project to demonstrate the main phases of compilation:  
@@ -38,7 +38,7 @@ It is designed as a learning project to demonstrate the main phases of compilati
 ---
 
 ## Features
-[Back to contents](#jump-to)
+[Back to top](#jump-to)
 
 - **Lexical Analysis (Tokenizer)**: converts characters into tokens  
 - **Recursive Descent Parser**: parses tokens into an AST  
@@ -50,7 +50,7 @@ It is designed as a learning project to demonstrate the main phases of compilati
 ---
 
 ## Pipeline
-[Back to contents](#jump-to)
+[Back to top](#jump-to)
 
 1. **Lexical Analysis**: `scanner.c` tokenizes the input.  
 2. **Parsing**:  `parser.c` recursively builds the **AST**.  
@@ -59,22 +59,7 @@ It is designed as a learning project to demonstrate the main phases of compilati
 5. **Target Code Generation**: TAC is traversed and translated into **MIPS assembly**.
 
 ``` 
-  Source Code
-     │
-     v
-  Scanner -----------> Tokens
-     │
-     v
-  Parser ------------> Abstract Syntax Tree (AST)
-     │
-     v
- Semantic Analysis --> Checked AST + Symbol Table
-     │
-     v
- Intermediate Code --> Three Address Code (TAC)
-     │
-     v
- Code Generation ----> MIPS Assembly
+Source Code → Scanner → Tokens → Parser → AST → Semantic Analysis → TAC → MIPS
 ```
 
 (Everything is done in parser.c for now but I do plan to split up the work into different files so it's more organized!!)
@@ -82,7 +67,7 @@ It is designed as a learning project to demonstrate the main phases of compilati
 ---
 
 ## Build and run
-[Back to contents](#jump-to)
+[Back to top](#jump-to)
 
 ### 0. Setup:
 Clone this repository or download all files
@@ -136,7 +121,7 @@ y
 ---
 
 ## Examples
-[Back to contents](#jump-to)
+[Back to top](#jump-to)
 
 --
 
@@ -395,3 +380,4 @@ Output here
 - `three_address.c` / `three_address.h` --> Defines data structure and methods for three adress code 
 - `driver.c` --> Entry point of the compiler
 - `Makefile` --> Build the compiler
+
