@@ -26,7 +26,7 @@ Salydoku is a Sudoku game built in Java with a JavaFX GUI. <br>
 Players can select from easy, medium, or hard difficulty levels and track their progress with a built-in timer. <br> 
 The game also includes a login system where users can save their best times, view their game history, and track wins and losses! 
 
-See the video in this repo for a demo of the functionalities!
+See the [video](https://github.com/JennyYu2/Projects/raw/main/Slaydoku/SlaydouDemoVid.mp4) in this repo for a demo of the functionalities!
 
 ---
 
@@ -93,4 +93,5 @@ java SudokuGUI
 - Encapsulation of game logic, board state, and user data
 - Inheritance for shared GUI components and behaviors
 - Polymorphism in puzzle generation and difficulty settings
+
 
