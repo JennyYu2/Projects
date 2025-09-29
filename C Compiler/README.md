@@ -371,6 +371,8 @@ Output here
 ---
 
 ## Files
+[Back to top](#jump-to)
+
 - `scanner.c` / `scanner.h` --> Gets tokens from the input and returns the types
 - `parser.c` / `parser.h` --> Main code. Recursive descent parser, builds the AST, TAC, generates MIPS
 - `AST_node.c` / `AST_node.h` --> Data structure for AST nodes
@@ -380,4 +382,5 @@ Output here
 - `three_address.c` / `three_address.h` --> Defines data structure and methods for three adress code 
 - `driver.c` --> Entry point of the compiler
 - `Makefile` --> Build the compiler
+
 
