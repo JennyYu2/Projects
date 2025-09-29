@@ -1,5 +1,10 @@
 # Salydoku Game
 
+<div align="center">  
+  <img src="Slay/images/Slaydoku.png" alt="Slaydoku game screenshot" width="500" height="463">
+</div>
+
+
 ## Authors: 
 - Jenny Yu
 - Josh Samadder
@@ -93,5 +98,6 @@ java SudokuGUI
 - Encapsulation of game logic, board state, and user data
 - Inheritance for shared GUI components and behaviors
 - Polymorphism in puzzle generation and difficulty settings
+
 
 
