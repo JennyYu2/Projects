@@ -21,7 +21,7 @@ This project is a collaboratively built website with interactive activities for 
 
 ## How to run
 
-To view the website right click on the file "index.html" and select "open with Chrome," doing so will open a Chrome tab to the website's home page.  
+To view the website, download all files and folders. Right click on the file "index.html" and select "open with Chrome," doing so will open a Chrome tab to the website's home page.  
 
 Known Bugs: None
 
