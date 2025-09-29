@@ -4,6 +4,7 @@
 *April 2024*
 
 ---
+
 ## Jump to:
 
 [Overview](#overview) <br>
@@ -15,7 +16,8 @@
 
 --- 
 
-## Overview:
+## Overview:  
+[Back to contents](#jump-to)
 
 This project is a compiler that translates a subset of the C language (C--) into MIPS assembly code.
 It is designed as a learning project to demonstrate the main phases of compilation:  
@@ -36,6 +38,7 @@ It is designed as a learning project to demonstrate the main phases of compilati
 ---
 
 ## Features
+[Back to contents](#jump-to)
 
 - **Lexical Analysis (Tokenizer)**: converts characters into tokens  
 - **Recursive Descent Parser**: parses tokens into an AST  
@@ -47,6 +50,7 @@ It is designed as a learning project to demonstrate the main phases of compilati
 ---
 
 ## Pipeline
+[Back to contents](#jump-to)
 
 1. **Lexical Analysis**: `scanner.c` tokenizes the input.  
 2. **Parsing**:  `parser.c` recursively builds the **AST**.  
@@ -78,6 +82,7 @@ It is designed as a learning project to demonstrate the main phases of compilati
 ---
 
 ## Build and run
+[Back to contents](#jump-to)
 
 ### 0. Setup:
 Clone this repository or download all files
@@ -131,6 +136,9 @@ y
 ---
 
 ## Examples
+[Back to contents](#jump-to)
+
+--
 
 [Expressions](#expressions) <br>
 [Function Calls](#function-calls) <br>
@@ -142,8 +150,8 @@ y
 
 i. Expressions containing multiple occurrences of an operator
 
-Input:
-```
+**Input:**
+```c
 int u, v, w;
 
 int main() {
@@ -168,7 +176,7 @@ int main() {
 }
 ```
 
-Output:
+**Output:**
 ```
 Output code here
 ```
@@ -177,8 +185,8 @@ Output code here
 
 i. expressions containing function calls
 
-Input:
-```
+**Input:**
+```c
 int x, y, z;
 
 int one() { z = 1; }
@@ -209,15 +217,15 @@ int main() {
 }
 ```
 
-Output:
+**Output:**
 ```
 Output code here
 ```
 
 ii. IF statements containing function calls
 
-Input:
-```
+**Input:**
+```c
 int f(int x) { return -1+x+3; }
 int g(int x) { return x+2; }
 int h(int x, int y) { return x*2 + y*3; }
@@ -240,7 +248,7 @@ int main() {
 }
 ```
 
-Output:
+**Output:**
 ```
 Output code here
 ```
@@ -249,8 +257,8 @@ Output code here
 
 i. WHILE loop
 
-Input:
-```
+**Input:**
+```c
 int x;
 
 int increment(int n) {
@@ -267,7 +275,7 @@ int main() {
 }
 ```
 
-Output:
+**Output:**
 ```
 Output here
 ```
@@ -276,8 +284,8 @@ Output here
 
 i. RETURN statements containing several different operators
 
-Input:
-```
+**Input:**
+```c
 int f1(int x, int y, int z, int w) {
     return x + y + z + w;
 }
@@ -319,7 +327,7 @@ int main() {
 }
 ```
 
-Output:
+**Output:**
 ```
 Output here
 ```
@@ -328,8 +336,8 @@ Output here
 
 i. Recursive functions
 
-Input:
-```
+**Input:**
+```c
 int factorial(int n) {
     if (n <= 0) {
         return 1;
@@ -370,7 +378,7 @@ int main() {
 }
 ```
 
-Output:
+**Output:**
 ```
 Output here
 ```
@@ -387,15 +395,3 @@ Output here
 - `three_address.c` / `three_address.h` --> Defines data structure and methods for three adress code 
 - `driver.c` --> Entry point of the compiler
 - `Makefile` --> Build the compiler
-
-
-
-
-
-
-
-
-
-
-
-
