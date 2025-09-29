@@ -27,8 +27,10 @@ Users can log in as **Readers**, **Authors**, or **Publishers**, and utilize the
 ---
 
 ## How to run the program
+[Back to top](#Table-of-contents)
 
 ### Prerequisites:
+
 - Must have express installed
   ```bash
   npm install express
@@ -41,7 +43,7 @@ Users can log in as **Readers**, **Authors**, or **Publishers**, and utilize the
 ### To run the server:
 1. Clone this GitHub repository
 ```bash
-git clone https://github.com/JennyYu2/CSC337-Final-Project.git
+git clone https://github.com/JennyYu2/Projects.git
 ```
 2. Navigate to the project root folder
 3. Start the server:
@@ -53,6 +55,7 @@ node server.js
 ---
 
 ## Project Requirements:
+[Back to top](#Table-of-contents)
 
 - Minimum of three interconnected modules:
   - Three modules: Readers, Authors and Publishers
@@ -91,6 +94,7 @@ node server.js
 ---
 
 ## Modules and Work split
+[Back to top](#Table-of-contents)
 
 ### 0. **Jenny** -- General(non-logged-in pages)
 - index.html
@@ -130,6 +134,7 @@ node server.js
 ---
 
 ## Functionalities
+[Back to top](#Table-of-contents)
 
 ### General:
   - Homepage
