@@ -127,7 +127,286 @@ sw   $t0, x
 
 ## Examples
 
-- Input: 
+[Expressions](###expressions) <br>
+[Function Calls](###function-calls) <br>
+[Loops](###loops) <br>
+[Return statements](###return-statements) <br>
+[Recursion](###recursion) <br>
+
+### Expressions
+
+i. Expressions containing multiple occurrences of an operator
+
+Input
+```
+int u, v, w;
+
+int main() {
+    int x, y, z;
+
+    x = 1; y = 2; z = 3; u = 4; w = 10;
+
+    v = x + y + z + u;
+    println(v);
+
+    v = x - y - z - u;
+    println(v);
+
+    v = x * y * z * u;
+    println(v);
+
+    v = w / y / z / x;
+    println(v);
+
+    v = - - -w;
+    println(v);
+}
+```
+
+Output
+```
+Output code here
+```
+
+### Function calls
+
+i. Expressions containing function calls and several of a single kind of operator
+
+Input 
+```
+int x, y;
+
+int one() { return 1; }
+
+int two() {
+    return one() + one();
+}
+
+int main() {
+    int u, v;
+
+    x = one();
+    u = two();
+    
+    u = one() + two() + one() + two();
+    println(u);
+    
+    v = one() - two() - one() - two();
+    println(v);
+
+    v = one() * two() * one() * two();
+    println(v);
+
+    v = 10 / two() / one() / two();
+    println(v);
+
+}
+```
+
+Output
+```
+Output code here
+```
+
+ii. expressions containing function calls
+
+Input
+```
+int x, y, z;
+
+int one() { z = 1; }
+
+int two() { z = 2; }
+
+int add(int x, int y) { z = x + y; }
+
+int sub(int x, int y) { z = x - y; }
+
+int main() {
+    int u, v;
+
+    one();
+    println(z);
+    
+    two();
+    println(z);
+
+    x = 1;
+    y = 2;
+    add(x, y );
+    println(z);
+    
+    sub(x, y);
+    println(z);
+
+}
+```
+
+Output
+```
+Output code here
+```
+
+iii. IF statements containing function calls
+
+Input
+```
+int f(int x) { return -1+x+3; }
+int g(int x) { return x+2; }
+int h(int x, int y) { return x*2 + y*3; }
+
+int main() {
+    int x, y;
+
+    x = 1;
+    y = 2;
+
+    if (f(g(y)) == g(f(x)))
+        println(4);
+    else
+        println(7);
+
+    if ( h(x, y) < h(y, x) )
+        println(19);
+    else
+        println(23);
+}
+```
+
+Output
+```
+Output code here
+```
+
+### Loops
+
+i. WHILE loop
+
+Input
+```
+int x;
+
+int increment(int n) {
+    x = x + n;
+    println(x);
+    return x;
+}
+
+int main() {
+    x = 5;
+    while (x == 0 && increment(-1) != 0 || increment(-1) != 0) {
+        println(x);
+    }
+}
+```
+
+Output
+```
+Output here
+```
+
+### Return statements
+
+i. RETURN statements containing several different operators
+
+Input
+```
+int f1(int x, int y, int z, int w) {
+    return x + y + z + w;
+}
+
+int f2(int x, int y, int z, int w) {
+    return x - y * z / w;
+}
+
+int f3(int x, int y, int z, int w) {
+    return x * z / y + w;
+}
+
+int f4(int x, int y, int z, int w) {
+    return x / y + z - w;
+}
+
+int f5(int x, int y, int z, int w) {
+    return -x + -y - -z * -w;
+}
+
+int main() {
+    int x;
+
+    x = f1(2,3,4,5);
+    println(x);
+
+    x = f2(2,3,4,5);
+    println(x);
+
+    x = f3(2,3,4,5);
+    println(x);
+
+    x = f4(8,2,3,1);
+    println(x);
+
+    x = f5(1,2,3,4);
+    println(x);
+
+}
+```
+
+Output
+```
+Output here
+```
+
+### Recursion
+
+i. Recursion
+
+Input 
+```
+int factorial(int n) {
+    if (n <= 0) {
+        return 1;
+    }
+    else {
+        return n * factorial(n-1);
+    }
+}
+
+int fib(int n) {
+    if (n <= 0) {
+        return 1;
+    }
+    else {
+        return fib(n-1) + fib(n-2);
+    }
+}
+
+int main() {
+    int n;
+    int i, x;
+
+    n = 7;
+    
+    i = 0;
+    while (i <= n) {
+        x = factorial(i);
+	println(x);
+	i = i + 1;
+    }
+
+    i = 0;
+    while (i <= n) {
+        x = fib(i);
+	println(x);
+	i = i + 1;
+    }
+}
+```
+
+Output
+```
+Output here
+```
 
 ---
 
@@ -141,6 +420,7 @@ sw   $t0, x
 - `three_address.c` / `three_address.h` --> Defines data structure and methods for three adress code 
 - `driver.c` --> Entry point of the compiler
 - `Makefile` --> Build the compiler
+
 
 
 
