@@ -53,32 +53,29 @@ And supports searching in three programming languages:
 go run scraper.go
 ```
 
-
 2. Follow the prompts
-- **Function name (optional)**: enter a function you want to look up
-
-  Example:
-  ```
-  bubble sort
-  ```
-- **Description**: enter a brief description of what you want to look up
-
-  Example:
-  ```
-  bubble sort function
-  ```
-- **Language (optional)**: enter the language you want to find code for
-
-  Example:
-  ```
-  java
-  ```
-- **Website(s)**: enter the number corresponding to the website(s) you want to search on
-  - 1 --> Stack Overflow
-  - 2 --> GeeksforGeeks
-  - 3 --> W3Schools
-  - 4 --> All three
-
+   - **Function name (optional)**: enter a function you want to look up
+     Example:
+     ```
+     bubble sort
+     ```
+     
+   - **Description**: enter a brief description of what you want to look up
+     Example:
+     ```
+     bubble sort function
+     ```
+   - **Language (optional)**: enter the language you want to find code for
+     Example:
+     ```
+     java
+     ```
+     
+   - **Website(s)**: enter the number corresponding to the website(s) you want to search on
+     - 1 --> Stack Overflow
+     - 2 --> GeeksforGeeks
+     - 3 --> W3Schools
+     - 4 --> All three
 
 3. Relevant code snippets will be printed to the console!
 
