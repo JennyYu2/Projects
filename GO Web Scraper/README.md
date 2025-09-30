@@ -44,13 +44,15 @@ And supports searching in three programming languages:
 [Back to top](#table-of-contents)
 
 0. Prerequisites
-  - Must have Go installed
-  - Clone this repository or download all the files
+   - Must have Go installed
+   - Clone this repository or download all the files
+
 
 1. Navigate to the project folder and type:
 ```
 go run scraper.go
 ```
+
 
 2. Follow the prompts
 - Function name (optional): enter a function name you want to look up
@@ -77,7 +79,8 @@ go run scraper.go
   - 3 --> C
   - 4 --> All three languages
 
-3. Relevant code snippets will be printed to the conole!
+
+3. Relevant code snippets will be printed to the console!
 
 ---
 
