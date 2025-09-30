@@ -14,25 +14,33 @@
 
 ---
 
+Table of Contents
+
+- [Description](#description)
+- [Instructions to Run](#instructions-to-run)
+- [Features](#features)
+- [Included Files](#included-files)
+
 ## Description
 
-This is a webscraper written in Go that finds relevant code snippets based on user input.
+This is a **webscraper** written in Go that finds relevant code snippets based on user input.
 
-It can scrape from three websites:
-- stackoverflow
-- geeksforgeeks
-- w3 schools
+It scrapes from three websites:
+- [Stack Overflow](https://stackoverflow.com/)  
+- [GeeksforGeeks](https://www.geeksforgeeks.org/)  
+- [W3Schools](https://www.w3schools.com/) 
 
-In three different languages:
-- Java
-- Python
-- C
+And supports searching in three programming languages:
+- **Java**
+- **Python**
+- **C**
 
 ---
 
-## Instructions to run
+## Instructions to Run
 
 0. Prerequisites
+- Must have Go installed
 - Clone this repository or download all the files
 
 1. Navigate to the project folder and type:
@@ -40,49 +48,50 @@ In three different languages:
 go run scraper.go
 ```
 
-2. Will prompt for function name (optional), enter a function name you want to look up
+2. Follow the prompts
+- Function name (optional): enter a function name you want to look up
 
-Example:
-```
-bubble sort
-```
+  Example:
+  ```
+  bubble sort
+  ```
+- Description: enter a brief description of what you want to look up
 
-3. Will prompt for description, enter a brief description of what you want to look up
+  Example:
+  ```
+  bubble sort function
+  ```
+- Language (optional): enter the language you want to find code for
 
-Example:
-```
-bubble sort function
-```
-4. Will prompt for language (optional), enter the language you want to find code for
+  Example:
+  ```
+  java
+  ```
+- Website(s) to search on: enter the number corresponding to website(s) you want to search on 
+  - 1 --> java
+  - 2 --> python
+  - 3 --> C
 
-Example:
-```
-java
-```
-
-5. Will ask which website you want to search on, enter the number corresponding to website(s) you want to search on
-- 1 for java
-- 2 for python
-- 3 for C
-
-6. Relevant code snippets will be printed to the conole
+3. Relevant code snippets will be printed to the conole!
 
 --
 
 ## Features
 
-- Use of Goroutines for concurrent searching
-- 
+- Concurrent searching using Goroutines
+- Scrapes multiple coding resources
+- Works with Java, Python, and C
+- User-friendly command-line interface
 
 ---
 
-## Included files 
+## Included Files 
 
-- chromedp.go
+- `chromedp.go`
     - Searches through google and extracts code from urls
-- main.go
+- `main.go`
     - The command line interface which uses goroutines to search urls
-- test.go
-    - The command line interface without goroutines  
+- `test.go`
+    - Simpler command line interface without goroutines  
 
 
