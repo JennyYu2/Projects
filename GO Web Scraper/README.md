@@ -1,7 +1,7 @@
 # Go Webscraper
 
 <div align="center">  
-  <img src="go%go%go/images/beaver.png" alt="go beaver" >
+  <img src="go%20go%20go/images/beaver.png" alt="go beaver" width="300" height="300">
 </div>
 
 ### Authors
