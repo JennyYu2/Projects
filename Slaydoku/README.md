@@ -74,7 +74,7 @@ See the [video](https://github.com/JennyYu2/Projects/raw/main/Slaydoku/SlaydouDe
 [Back to top](#table-of-contents)
 
 0. Prerequisites
-   - Java 8 or later
+   - Must have Java 8 or later installed
    - JavaFX installed and added to your classpath
      
 1. Clone this repository or download all the files
@@ -98,6 +98,7 @@ java SudokuGUI
 - Encapsulation of game logic, board state, and user data
 - Inheritance for shared GUI components and behaviors
 - Polymorphism in puzzle generation and difficulty settings
+
 
 
 
