@@ -44,8 +44,8 @@ And supports searching in three programming languages:
 [Back to top](#table-of-contents)
 
 0. Prerequisites
-- Must have Go installed
-- Clone this repository or download all the files
+  - Must have Go installed
+  - Clone this repository or download all the files
 
 1. Navigate to the project folder and type:
 ```
