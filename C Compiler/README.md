@@ -70,7 +70,8 @@ Source Code → Scanner → Tokens → Parser → AST → Semantic Analysis → 
 [Back to top](#jump-to)
 
 ### 0. Setup:
-Clone this repository or download all files
+- Must have C installed
+- Clone this repository or download all files
 
 ### 1. To build:
 ``` 
@@ -384,6 +385,7 @@ Output here
 - `three_address.c` / `three_address.h` --> Defines data structure and methods for three adress code 
 - `driver.c` --> Entry point of the compiler
 - `Makefile` --> Build the compiler
+
 
 
 
