@@ -6,7 +6,7 @@
 
 
 ## Authors: 
-- Jenny Yu
+- **Jenny Yu**
 - Josh Samadder
 - Ricky Su
 - Chia-En Chang
@@ -98,6 +98,7 @@ java SudokuGUI
 - Encapsulation of game logic, board state, and user data
 - Inheritance for shared GUI components and behaviors
 - Polymorphism in puzzle generation and difficulty settings
+
 
 
 
