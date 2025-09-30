@@ -14,21 +14,24 @@
 
 ---
 
-Table of Contents
+## Table of Contents
 
 - [Description](#description)
 - [Instructions to Run](#instructions-to-run)
 - [Features](#features)
 - [Included Files](#included-files)
 
+---
+
 ## Description
+[Back to top](#table-of-contents)
 
 This is a **webscraper** written in Go that finds relevant code snippets based on user input.
 
 It scrapes from three websites:
-- [Stack Overflow](https://stackoverflow.com/)  
-- [GeeksforGeeks](https://www.geeksforgeeks.org/)  
-- [W3Schools](https://www.w3schools.com/) 
+- Stack Overflow 
+- GeeksforGeeks  
+- W3Schools
 
 And supports searching in three programming languages:
 - **Java**
@@ -38,6 +41,7 @@ And supports searching in three programming languages:
 ---
 
 ## Instructions to Run
+[Back to top](#table-of-contents)
 
 0. Prerequisites
 - Must have Go installed
@@ -71,12 +75,14 @@ go run scraper.go
   - 1 --> java
   - 2 --> python
   - 3 --> C
+  - 4 --> All three languages
 
 3. Relevant code snippets will be printed to the conole!
 
---
+---
 
 ## Features
+[Back to top](#table-of-contents)
 
 - Concurrent searching using Goroutines
 - Scrapes multiple coding resources
@@ -86,6 +92,7 @@ go run scraper.go
 ---
 
 ## Included Files 
+[Back to top](#table-of-contents)
 
 - `chromedp.go`
     - Searches through google and extracts code from urls
@@ -93,5 +100,4 @@ go run scraper.go
     - The command line interface which uses goroutines to search urls
 - `test.go`
     - Simpler command line interface without goroutines  
-
 
