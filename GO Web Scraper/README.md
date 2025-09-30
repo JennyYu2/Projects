@@ -55,17 +55,20 @@ go run scraper.go
 
 2. Follow the prompts
    - **Function name (optional)**: enter a function you want to look up
+
      Example:
      ```
      bubble sort
      ```
      
    - **Description**: enter a brief description of what you want to look up
+
      Example:
      ```
      bubble sort function
      ```
    - **Language (optional)**: enter the language you want to find code for
+
      Example:
      ```
      java
