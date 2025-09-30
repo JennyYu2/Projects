@@ -11,7 +11,7 @@ Users can log in as **Readers**, **Authors**, or **Publishers**, and utilize the
 
 ## Authors:
 
-- Jenny Yu
+- **Jenny Yu**
 - Josh Samadder
 - Mariposa Delany
 
