@@ -55,29 +55,29 @@ go run scraper.go
 
 
 2. Follow the prompts
-- Function name (optional): enter a function name you want to look up
+- **Function name (optional)**: enter a function you want to look up
 
   Example:
   ```
   bubble sort
   ```
-- Description: enter a brief description of what you want to look up
+- **Description**: enter a brief description of what you want to look up
 
   Example:
   ```
   bubble sort function
   ```
-- Language (optional): enter the language you want to find code for
+- **Language (optional)**: enter the language you want to find code for
 
   Example:
   ```
   java
   ```
-- Website(s) to search on: enter the number corresponding to website(s) you want to search on 
-  - 1 --> java
-  - 2 --> python
-  - 3 --> C
-  - 4 --> All three languages
+- **Website(s)**: enter the number corresponding to the website(s) you want to search on
+  - 1 --> Stack Overflow
+  - 2 --> GeeksforGeeks
+  - 3 --> W3Schools
+  - 4 --> All three
 
 
 3. Relevant code snippets will be printed to the console!
@@ -98,9 +98,9 @@ go run scraper.go
 [Back to top](#table-of-contents)
 
 - `chromedp.go`
-    - Searches through google and extracts code from urls
+    - Searches through google and extracts code from URLs
 - `main.go`
-    - The command line interface which uses goroutines to search urls
+    - The command line interface which uses goroutines to search URLs
 - `test.go`
     - Simpler command line interface without goroutines  
 
