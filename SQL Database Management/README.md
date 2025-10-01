@@ -20,6 +20,7 @@
 ---
 
 ## Description
+[Back to top](#table-of-contents)
 
 This project is a Java and SQL arcade management system that simulates an arcade’s database! <br>
 
@@ -32,6 +33,7 @@ Additionally, pre-built queries allow users to analyze arcade activity, such as 
 ---
 
 ## Instructions to Run the Program:
+[Back to top](#table-of-contents)
 
 0. Prerequisites
    - Must have Java installed
@@ -54,6 +56,7 @@ Additionally, pre-built queries allow users to analyze arcade activity, such as 
 ---
 
 ## ER Diagram
+[Back to top](#table-of-contents)
 
 <div align="center">  
   <img src="database/images/ER Diagram.png" alt="ER diagram" width="700" height="641">
@@ -62,6 +65,7 @@ Additionally, pre-built queries allow users to analyze arcade activity, such as 
 ---
 
 ## Database Tables
+[Back to top](#table-of-contents)
 
 ### Coupon
 
@@ -129,6 +133,7 @@ Tracks token purchases by members
 ---
 
 ## Pipeline
+[Back to top](#table-of-contents)
 
 1. When the program is first run, user is prompted to select their role or run queries:
    ```
