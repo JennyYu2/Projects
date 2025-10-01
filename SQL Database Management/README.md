@@ -23,7 +23,10 @@
 
 This project is a Java and SQL arcade management system that simulates an arcade’s database! <br>
 
-Users can log in as Admins (to manage members, games, and prizes) or as Customers (to buy tokens, redeem prizes, and manage accounts). <br>
+Users can log in as:
+- **Admins** --> manage members, games, and prizes
+- **Customers** --> buy tokens, redeem prizes, and manage their accounts
+
 Additionally, pre-built queries allow users to analyze arcade activity, such as top scores and spending.
 
 ---
@@ -42,8 +45,8 @@ Additionally, pre-built queries allow users to analyze arcade activity, such as 
 2. Run MemberManagementApp.java:
 ```   
      java MemberManagementApp
-``` 
-    
+```
+
 3. Enter the number for the corresponding prompts to execute, enter necessary information when prompted
 
 4. Have fun editing data running queries!
@@ -127,7 +130,7 @@ Tracks token purchases by members
 
 ## Pipeline
 
-1. When program is first ran, user is prompted to select their role or run queries:
+1. When the program is first run, user is prompted to select their role or run queries:
    ```
    Choose your role:
        1. Database Admin
