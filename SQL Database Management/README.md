@@ -13,6 +13,7 @@
 ## Table of Contents
 - [Description](#description)
 - [Instructions](#instructions-to-run-the-program)
+- [ER Diagram](#er-diagram)
 - [Database Tables](#database-tables)
 - [Pipeline](#pipeline)
 
@@ -29,7 +30,7 @@ Additionally, pre-built queries allow users to analyze arcade activity, such as 
 
 ## Instructions to Run the Program:
 
-0. Prerequities
+0. Prerequisites
    - Must have Java installed
    - Clone this repository or download all files
 
@@ -46,6 +47,11 @@ Additionally, pre-built queries allow users to analyze arcade activity, such as 
 3. Enter the number for the corresponding prompts to execute, enter necessary information when prompted
 
 4. Have fun editing data running queries!
+
+---
+
+## ER Diagram
+
 
 
 ---
