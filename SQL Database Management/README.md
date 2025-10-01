@@ -53,6 +53,8 @@ Additionally, pre-built queries allow users to analyze arcade activity, such as 
 ## Database Tables
 
 ### Coupon
+
+Manages coupons assigned to members
 ```
  ________________________________________________________________
 | CID | MID (fk to MID in Member) | description | expirationDate |
@@ -60,6 +62,8 @@ Additionally, pre-built queries allow users to analyze arcade activity, such as 
 ```
 
 ### Game
+
+Defines arcade games with token cost and score multiplier (factor)
 ```
  _________________________________
 | GID | name | tokenCost | factor |
@@ -67,6 +71,8 @@ Additionally, pre-built queries allow users to analyze arcade activity, such as 
 ```
 
 ### GamePlay
+
+Logs every game played by a member, including score and tickets earned
 ```
  _____________________________________________________________________________________________________
 | GameplayID GID (fk to GID in Game) | MID (fk to MID in Member) | score | ticketsEarned | datePlayed |
@@ -74,6 +80,8 @@ Additionally, pre-built queries allow users to analyze arcade activity, such as 
 ```
 
 ### Member
+
+Stores customer account information
 ```
  ___________________________________________________________________
 | MID | name | phoneNo | address | tier | totalSpent | totalTickets |
@@ -81,6 +89,8 @@ Additionally, pre-built queries allow users to analyze arcade activity, such as 
 ```
 
 ### Prize
+
+Arcade prizes with ticket costs and available inventory
 ```
  _____________________________________________________
 | PrizeID | description | ticketCost | inventoryCount |
@@ -88,6 +98,8 @@ Additionally, pre-built queries allow users to analyze arcade activity, such as 
 ```
 
 ### PrizeRedemption
+
+Records prize redemption transactions
 ```
  __________________________________________________________________________________
 | XactID | MID (fk to MID in Member) | PrizeID (fk to PrizeID in Prize) | xactDate |
@@ -95,6 +107,8 @@ Additionally, pre-built queries allow users to analyze arcade activity, such as 
 ```
 
 ### TokenPurchase
+
+Tracks token purchases by members
 ```
  ________________________________________________________________________
 | PID | MID (fk to MID in Member) | tokenNo | amountSpent | purchaseDate |
