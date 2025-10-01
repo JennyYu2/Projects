@@ -1,5 +1,9 @@
 # SQL Database Management
 
+<div align="center">  
+  <img src="database/images/sql.png" alt="SQL logo" width="400" height="187">
+</div>
+
 ## Authors:
 
 - Hamad Ayaz
