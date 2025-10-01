@@ -36,25 +36,57 @@ Additionally, pre-built queries allow users to analyze arcade activity, such as 
 ## Database Concepts
 [Back to top](#table-of-contents)
 
-- Normalization
-  - All relations are in Boyce-Codd Normal Form (BCNF).
+- **Normalization**
+  - Ensures the database avoids redundancy and anomalies by organizing into BCNF.  
+  - All relations are in Boyce-Codd Normal Form (BCNF) .
   - Each table has a primary key that uniquely identifies rows.
   - Example: `GamePlayID --> (GID, MID, score, ticketsEarned, datePlayed)` ensures no repeating groups.
  
-- Keys and Constraints
+- **Keys and Constraints**
   - **Primary Keys (PK):** Every table has a unique identifier (Ex: `MID` for Member, `GID` for Game).
   - **Foreign Keys (FK):** Relationships are enforced (Ex: `MID` in TokenPurchase references Member).
   - **Referential Integrity:** Cascading updates/deletes can be applied to maintain consistency.
  
-  - Relationships
-    - **One-to-Many:** A Member can have many TokenPurchase or GamePlay records.
-    - **Many-to-Many:** Members redeem many Prizes through PrizeRedemption.
+- **Relationships**
+  - **One-to-Many:** A Member can have many TokenPurchase or GamePlay records.
+  - **Many-to-Many:** Members redeem many Prizes through PrizeRedemption.
    
-   - Queries showcasing SQL concepts:
-     - Aggregations: e.g., finding members who spent $100+ in a month.
-     - Joins: retrieving all games and their high scores (JOIN GamePlay ON Game.GID = GamePlay.GID).
-     - Selections: filtering prizes based on tickets a member has.
-     - Ordering/Grouping: listing high scores by member.
+- **Queries showcasing SQL concepts:**
+  - Aggregations and Joins: 
+
+    Example: Query 2. Members who spent $100 on tokens this month
+    ```java
+    // Java query string for SQL query
+    
+    String query = "SELECT m.name, m.tier, SUM(tp.amountSpent) AS TotalSpent " +
+					"FROM hamadayaz.Member m " +
+					"JOIN hamadayaz.TokenPurchase tp ON m.MID = tp.MID " +
+					"WHERE tp.purchaseDate >= ADD_MONTHS(CURRENT_DATE, -1) " +
+					"GROUP BY m.name, m.tier " +
+					"HAVING SUM(tp.amountSpent) >= 100";
+    ```
+    
+  - Selections: 
+ 
+    Example: Query 3. Prizes a member can redeem
+    ```java
+    // Java query string for SQL query
+
+    String ticketsQuery = "SELECT totalTickets FROM hamadayaz.Member WHERE MID = ?"; // Initial query that gets us the number of tickets the member has
+    int ticketNo = ans1.getInt("totalTickets"); // Grab the number of tickets they have as an integer
+		String prizesQuery = "SELECT description FROM hamadayaz.Prize WHERE ticketCost <= ?"; // Get the prizes that the member can get with the amount of tickets they have
+    ```
+    
+  - Ordering/Grouping:
+ 
+    Example: Query 4. Highest game score by a member
+    ```java
+    // Java query string for SQL query
+    
+    String query = "SELECT g.Name AS GameName, gp.score FROM hamadayaz.GamePlay gp " +
+					"JOIN hamadayaz.Game g ON gp.GID = g.GID " +
+					"WHERE gp.MID = ? ORDER BY gp.score DESC";
+    ```
 
 ---
 
