@@ -2,21 +2,31 @@
 
 ## Authors:
 
-* Hamad Ayaz
-* Josh Samadder
-* Jenny Yu
+- Hamad Ayaz
+- Josh Samadder
+- **Jenny Yu**
 
 *April 2024* 
 
 ---
 
+## Description
+
+This project is a SQL Database simulator that is based on an arcade! There are different roles with different functionalities:
+- Database admin
+  - Add prizes
+  - Mangage arcade game machines
+- Customer
+
+---
+
 ## Instructions for running the program:
 
-i.) Go to the root directory and compile all .java files using:
+1. Go to the root directory and compile all .java files using:
 
     javac *.java
 
-ii.) Run MemberManagementApp.java and enter credentials when prompted:
+2. Run MemberManagementApp.java and enter credentials when prompted:
      
      java MemberManagementApp
      
@@ -66,9 +76,4 @@ b) Then depending on what you choose, you get either the menu for Admin operatio
 c) Then enter the number for the corresponding operation you would like to execute for Admin/Customer/Queries, press enter, and enter all the necessary data when prompted by the program. The program will then tell you the outcome of the operation you have ran. 
 
 d) When you are done, return to the main menu if not already there (option 0, enter) and type the option to Exit Program, press enter. 
-
-<br>
-<br>
-
-
 
