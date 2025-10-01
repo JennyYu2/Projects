@@ -20,26 +20,10 @@
 
 ## Description
 
-This project is a SQL Database simulator that is based on an arcade! 
+This project is a Java and SQL arcade management system that simulates an arcade’s database! <br>
 
-There are two different roles with different functionalities:
-1. Database admin
-   - Add, update and delete members
-   - Add and delete arcade games
-   - Add and delete prize options
-  
-2. Customer
-   - Manage account and account information
-   - Buy tokens
-   - Redeem prizes
-
-<br>
-
-Additionally there are also queries that users can run:
-- List all games and high scores
-- Members who spent $100 on tokens this month
-- Prizes a member can redeem
-- Highest game score by a member
+Users can log in as Admins (to manage members, games, and prizes) or as Customers (to buy tokens, redeem prizes, and manage accounts). <br>
+Additionally, pre-built queries allow users to analyze arcade activity, such as top scores and spending.
 
 ---
 
@@ -122,15 +106,16 @@ Additionally there are also queries that users can run:
 ## Pipeline
 
 1. When program is first ran, user is prompted to select their role or run queries:
-```
-Choose your role:
-    1. Database Admin
-    2. Customer
-    3. Queries
-    4. Exit Program
-```
+   ```
+   Choose your role:
+       1. Database Admin
+       2. Customer
+       3. Queries
+       4. Exit Program
+   ```
 
 2. Then depending on their choice the user is presented with the menu with the options:
+
    a. Database Admin
    ```
    0. <-- to Main Menu
@@ -166,8 +151,8 @@ Choose your role:
    0. Return to main menu
    ```
 
-3. Enter information to update data in the database or run queries to display current data in the database
+4. Enter information to update data in the database or run queries to display current data in the database
    a.
 
-4. When ready to leave the program, select option 0 until back to the main menu and select option 4 to exit
+5. When ready to leave the program, select option 0 until back to the main menu and select option 4 to exit
 
