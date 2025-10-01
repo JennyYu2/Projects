@@ -12,6 +12,7 @@
 
 ## Table of Contents
 - [Description](#description)
+- [Database Concepts](#database-concepts)
 - [Instructions](#instructions-to-run-the-program)
 - [ER Diagram](#er-diagram)
 - [Database Tables](#database-tables)
@@ -29,6 +30,31 @@ Users can log in as:
 - **Customers** --> buy tokens, redeem prizes, and manage their accounts
 
 Additionally, pre-built queries allow users to analyze arcade activity, such as top scores and spending.
+
+---
+
+## Database Concepts
+[Back to top](#table-of-contents)
+
+- Normalization
+  - All relations are in Boyce-Codd Normal Form (BCNF).
+  - Each table has a primary key that uniquely identifies rows.
+  - Example: `GamePlayID --> (GID, MID, score, ticketsEarned, datePlayed)` ensures no repeating groups.
+ 
+- Keys and Constraints
+  - **Primary Keys (PK):** Every table has a unique identifier (Ex: `MID` for Member, `GID` for Game).
+  - **Foreign Keys (FK):** Relationships are enforced (Ex: `MID` in TokenPurchase references Member).
+  - **Referential Integrity:** Cascading updates/deletes can be applied to maintain consistency.
+ 
+  - Relationships
+    - **One-to-Many:** A Member can have many TokenPurchase or GamePlay records.
+    - **Many-to-Many:** Members redeem many Prizes through PrizeRedemption.
+   
+   - Queries showcasing SQL concepts:
+     - Aggregations: e.g., finding members who spent $100+ in a month.
+     - Joins: retrieving all games and their high scores (JOIN GamePlay ON Game.GID = GamePlay.GID).
+     - Selections: filtering prizes based on tickets a member has.
+     - Ordering/Grouping: listing high scores by member.
 
 ---
 
