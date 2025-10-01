@@ -40,7 +40,7 @@ Additionally, pre-built queries allow users to analyze arcade activity, such as 
   - Ensures the database avoids redundancy and anomalies by organizing into BCNF.  
   - All relations are in Boyce-Codd Normal Form (BCNF) .
   - Each table has a primary key that uniquely identifies rows.
-  - Example: `GamePlayID --> (GID, MID, score, ticketsEarned, datePlayed)` ensures no repeating groups.
+  - Ex: `GamePlayID --> (GID, MID, score, ticketsEarned, datePlayed)` ensures no repeating groups.
  
 - **Keys and Constraints**
   - **Primary Keys (PK):** Every table has a unique identifier (Ex: `MID` for Member, `GID` for Game).
