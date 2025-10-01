@@ -10,70 +10,133 @@
 
 ---
 
-## Description
-
-This project is a SQL Database simulator that is based on an arcade! There are different roles with different functionalities:
-- Database admin
-  - Add prizes
-  - Mangage arcade game machines
-- Customer
+## Table of Contents
+- [Description](#description)
+- [Instructions](#instructions-to-run-the-program)
+- [Database Tables](#database-tables)
+- [Pipeline](#pipeline)
 
 ---
 
-## Instructions for running the program:
+## Description
 
-1. Go to the root directory and compile all .java files using:
+This project is a SQL Database simulator that is based on an arcade! 
 
+There are two different roles with different functionalities:
+1. Database admin
+   - Add, update and delete members
+   - Add and delete arcade games
+   - Add and delete prize options
+  
+2. Customer
+   - Manage account and account information
+   - Buy tokens
+   - Redeem prizes
+
+<br>
+
+Additionally there are also queries that users can run:
+- List all games and high scores
+- Members who spent $100 on tokens this month
+- Prizes a member can redeem
+- Highest game score by a member
+
+---
+
+## Instructions to Run the Program:
+
+0. Prerequities
+   - Must have Java installed
+   - Clone this repository or download all files
+
+1. Navigate to the root directory and compile all .java files:
+```
     javac *.java
+```
 
-2. Run MemberManagementApp.java and enter credentials when prompted:
-     
+2. Run MemberManagementApp.java:
+```   
      java MemberManagementApp
-     
-
-a) When program is run, a menu displays the options for the user to pick their role. Type the number of the corresponding role that you want to pick and press enter to make a selection.
+``` 
     
-    Choose your role:
+3. Enter the number for the corresponding prompts to execute, enter necessary information when prompted
+
+4. Have fun editing data running queries!
+
+
+---
+
+## Database Tables
+
+### Coupon
+```
+```
+
+### Game
+
+### GamePlay
+
+### Member
+
+### Prize
+
+### PrizeRedemption
+
+###Tables
+
+###TokenPurchase
+
+---
+
+## Pipeline
+
+1. When program is first ran, user is prompted to select their role or run queries:
+```
+Choose your role:
     1. Database Admin
     2. Customer
     3. Queries
     4. Exit Program
+```
 
+2. Then depending on their choice the user is presented with the menu with the options:
+   a. Database Admin
+   ```
+   0. <-- to Main Menu
+   Member Operations:
+   1. Add Member
+   2. Update Member
+   3. Delete Member
+   Game Operations:
+   4. Add Game
+   5. Delete Game
+   Prize Operations:
+   6. Add Prize
+   7. Delete Prize
+   ```
 
-b) Then depending on what you choose, you get either the menu for Admin operations:
+   b. Customer
+   ```
+   0. <-- to Main Menu
+   Member Operations:
+   1. Update Your Account Info
+   2. Delete Your Account
+   3. Redeem Prizes
+   4. Buy Tokens
+   ```
 
-    0. <-- to Main Menu
-    Member Operations:
-    1. Add Member
-    2. Update Member
-    3. Delete Member
-    Game Operations:
-    4. Add Game
-    5. Delete Game
-    Prize Operations:
-    6. Add Prize
-    7. Delete Prize
+   c. Queries
+   ```
+   Select a query to run:
+   1. List all games and high scores
+   2. Members who spent $100 on tokens this month
+   3. Prizes a member can redeem
+   4. Highest game score by a member
+   0. Return to main menu
+   ```
 
-  
-   Or you get the menu for Customer operations:
+3. Enter information to update data in the database or run queries to display current data in the database
+   a.
 
-    0. <-- to Main Menu
-    Member Operations:
-    1. Update Your Account Info
-    2. Delete Your Account
-    3. Redeem Prizes
-    4. Buy Tokens
-
-   Or you get the menu for the Queries:
-
-    Select a query to run:
-    1. List all games and high scores
-    2. Members who spent $100 on tokens this month
-    3. Prizes a member can redeem
-    4. Highest game score by a member
-    0. Return to main menu
-
-c) Then enter the number for the corresponding operation you would like to execute for Admin/Customer/Queries, press enter, and enter all the necessary data when prompted by the program. The program will then tell you the outcome of the operation you have ran. 
-
-d) When you are done, return to the main menu if not already there (option 0, enter) and type the option to Exit Program, press enter. 
+4. When ready to leave the program, select option 0 until back to the main menu and select option 4 to exit
 
