@@ -52,7 +52,9 @@ Additionally, pre-built queries allow users to analyze arcade activity, such as 
 
 ## ER Diagram
 
-
+<div align="center">  
+  <img src="database/images/ER Diagram.jpg" alt="ER diagram" width="300" height="300">
+</div>
 
 ---
 
