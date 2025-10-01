@@ -1,5 +1,9 @@
 # Tetris for Life
 
+<div align="center">  
+  <img src="tetris%20website/images/bannerImage.png" alt="Tetris for life GIF" width="600" height="217">
+</div>
+
 ## Authors:
 - Yen L [ylai1@arizona.edu](mailto:ylai1@arizona.edu)
 - Jeziel Banos Gonzalez [Jezielbgon@arizona.edu](mailto:jezielbgon@arizona.edu)
@@ -21,6 +25,10 @@ This project is a collaboratively built website with interactive activities for 
 
 ## How to run
 
+<div align="left">  
+  <img src="tetris%20website/images/tetris.gif" alt="Tetris for life GIF" width="500" height="73">
+</div>
+<br>
 To view the website, download all files and folders. Right click on the file "index.html" and select "open with Chrome," doing so will open a Chrome tab to the website's home page.  
 
 Known Bugs: None
