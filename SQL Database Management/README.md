@@ -176,7 +176,7 @@ Tracks token purchases by members
    0. Return to main menu
    ```
 
-4. Enter the specified information to update data in the database or run queries to display current data in the database
+3. Enter the specified information to update data in the database or run queries to display current data in the database
 
-5. When ready to leave the program, select option 0 until back to the main menu and select option 4 to exit
+4. When ready to leave the program, select option 0 until back to the main menu and select option 4 to exit
 
