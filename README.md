@@ -21,7 +21,7 @@ From compilers to games to web apps, each project folder contains its own code, 
   
 ### [SQL Database Management](./SQL%20Database%20Management)
 - Arcade simulation that interacts with a database using **SQL queries**  
-- **Language:** SQL
+- **Language:** SQL, Java
   
 ### [Slaydoku](./Slaydoku)
 - Classic **Sudoku game** with a graphical interface  
