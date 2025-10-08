@@ -1,7 +1,7 @@
 # Salydoku Game
 
 <div align="center">  
-  <img src="Slay/images/Slaydoku.png" alt="Slaydoku game screenshot" width="500" height="463">
+  <img src="slay/images/Slaydoku.png" alt="Slaydoku game screenshot" width="500" height="463">
 </div>
 
 
@@ -98,6 +98,7 @@ java SudokuGUI
 - Encapsulation of game logic, board state, and user data
 - Inheritance for shared GUI components and behaviors
 - Polymorphism in puzzle generation and difficulty settings
+
 
 
 
