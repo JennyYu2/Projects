@@ -39,7 +39,7 @@ From compilers to games to web apps, each project folder contains its own code, 
   
 ---
 
-##  ✰ About Me (ᵔᵕᵔ)◜
+##  ⟡ About Me (ᵔᵕᵔ)◜
 Hi, I’m Jenny!  
 I’m a passionate and creative developer with experience across a wide range of programming languages. <br>
 My specialty is **Web Development**, but I'm also skilled in Java, Python, C and SQL! <br>

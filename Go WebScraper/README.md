@@ -18,6 +18,7 @@
 
 - [Description](#description)
 - [Instructions to Run](#instructions-to-run)
+- [Example Run](#example-run)
 - [Features](#features)
 - [Included Files](#included-files)
 
@@ -81,6 +82,18 @@ go run scraper.go
      - 4 --> All three
 
 3. Relevant code snippets will be printed to the console!
+
+---
+
+## Example Run
+
+#### Searching for `Floyd Warshall Algorithm`
+
+Run the scrapper and type in Floyd Warshall to search
+
+[insert image]
+
+
 
 ---
 
