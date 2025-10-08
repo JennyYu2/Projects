@@ -4,7 +4,7 @@
   <img src="go%20go%20go/images/beaver.png" alt="go beaver" width="300" height="300">
 </div>
 
-### Authors
+### Authors:
 - Hamad Ayaz
 - Cj Chen
 - **Jenny Yu**
