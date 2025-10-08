@@ -15,7 +15,7 @@
 
 ---
 
-## Table of Contents:
+## Table of Contents
 - [Overview](#overview)
 - [Gameplay Features](#gameplay-features)
 - [Technical Features](#technical-features)
@@ -98,6 +98,7 @@ java SudokuGUI
 - Encapsulation of game logic, board state, and user data
 - Inheritance for shared GUI components and behaviors
 - Polymorphism in puzzle generation and difficulty settings
+
 
 
 
