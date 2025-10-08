@@ -9,19 +9,19 @@
 
 ---
 
-## Jump to:
+## Table of Contents
 
-[Overview](#overview) <br>
-[Features](#features) <br>
-[Pipeline](#pipeline) <br>
-[Build and run](#build-and-run) <br>
-[Examples](#examples) <br>
-[Files](#files)
+- [Overview](#overview) <br>
+- [Features](#features) <br>
+- [Pipeline](#pipeline) <br>
+- [Build and run](#build-and-run) <br>
+- [Examples](#examples) <br>
+- [Files](#files)
 
 --- 
 
 ## Overview
-[Back to top](#jump-to)
+[Back to top](#table-of-contents)
 
 This project is a compiler that translates a subset of the C language (C--) into MIPS assembly code.
 It is designed as a learning project to demonstrate the main phases of compilation:  
@@ -42,7 +42,7 @@ It is designed as a learning project to demonstrate the main phases of compilati
 ---
 
 ## Features
-[Back to top](#jump-to)
+[Back to top](#table-of-contents)
 
 - **Lexical Analysis (Tokenizer)**: converts characters into tokens  
 - **Recursive Descent Parser**: parses tokens into an AST  
@@ -54,7 +54,7 @@ It is designed as a learning project to demonstrate the main phases of compilati
 ---
 
 ## Pipeline
-[Back to top](#jump-to)
+[Back to top](#table-of-contents)
 
 1. **Lexical Analysis**: `scanner.c` tokenizes the input.  
 2. **Parsing**:  `parser.c` recursively builds the **AST**.  
@@ -71,7 +71,7 @@ Source Code → Scanner → Tokens → Parser → AST → Semantic Analysis → 
 ---
 
 ## Build and run
-[Back to top](#jump-to)
+[Back to top](#table-of-contents)
 
 ### 0. Setup:
 - Must have C installed
@@ -126,7 +126,7 @@ y
 ---
 
 ## Examples
-[Back to top](#jump-to)
+[Back to top](#table-of-contents)
 
 <details>
 <summary><h3>Expressions</h3></summary>
@@ -378,7 +378,7 @@ Output here
 ---
 
 ## Files
-[Back to top](#jump-to)
+[Back to top](#table-of-contents)
 
 - `scanner.c` / `scanner.h` --> Gets tokens from the input and returns the types
 - `parser.c` / `parser.h` --> Main code. Recursive descent parser, builds the AST, TAC, generates MIPS
@@ -389,9 +389,4 @@ Output here
 - `three_address.c` / `three_address.h` --> Defines data structure and methods for three adress code 
 - `driver.c` --> Entry point of the compiler
 - `Makefile` --> Build the compiler
-
-
-
-
-
 
