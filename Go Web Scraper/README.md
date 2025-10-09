@@ -29,15 +29,17 @@
 
 This is a **webscraper** written in Go that finds relevant code snippets based on user input.
 
-It scrapes from three websites:
+It scrapes from four websites:
 - Stack Overflow 
 - GeeksforGeeks  
 - W3Schools
+- Tutorialspoint
 
-And supports searching in three programming languages:
+And supports searching in four programming languages:
 - **Java**
 - **Python**
 - **C**
+- **C++**
 
 ---
 
@@ -79,7 +81,8 @@ go run scraper.go
      - 1 --> Stack Overflow
      - 2 --> GeeksforGeeks
      - 3 --> W3Schools
-     - 4 --> All three
+     - 4 --> TuorialsPoint
+     - 5 --> All four
 
 3. Relevant code snippets will be printed to the console!
 
@@ -89,10 +92,11 @@ go run scraper.go
 
 #### Searching for `Floyd Warshall Algorithm`
 
-Run the scrapper and type in Floyd Warshall to search
+Run the scrapper using `go run scraper.go` and type in the algorithm when prompted
 
+<img src="go%20go%20go/images/search1.jpeg" alt="first image of example run" width="300" height="300">
 
-<img src="go%20go%20go/images/search1.jpeg" alt="first image of example run">
+In the image above, we are also searching in Python by entering `2` when prompted and we choose to search on all four websites (Stack Overflow, GeeksforGeeks, W3Schools and Tutorialspoint) by entering `5` when prompted.
 
 <img src="go%20go%20go/images/search2.jpeg" alt="second image of example run">
 
