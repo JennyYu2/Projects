@@ -91,7 +91,16 @@ go run scraper.go
 
 Run the scrapper and type in Floyd Warshall to search
 
-[insert image]
+
+<img src="go%20go%20go/images/search1.jpeg" alt="first image of example run">
+
+<img src="go%20go%20go/images/search2.jpeg" alt="second image of example run">
+
+<img src="go%20go%20go/images/search3.jpeg" alt="third image of example run">
+
+<img src="go%20go%20go/images/search4.jpeg" alt="fourth image of example run">
+
+<img src="go%20go%20go/images/search5.jpeg" alt="fifth image of example run">
 
 
 
