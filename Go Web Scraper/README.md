@@ -81,7 +81,7 @@ go run scraper.go
      - 1 --> Stack Overflow
      - 2 --> GeeksforGeeks
      - 3 --> W3Schools
-     - 4 --> TuorialsPoint
+     - 4 --> Tutorialspoint
      - 5 --> All four
 
 3. Relevant code snippets will be printed to the console!
@@ -92,21 +92,29 @@ go run scraper.go
 
 #### Searching for `Floyd Warshall Algorithm`
 
-Run the scrapper using `go run scraper.go` and type in the algorithm when prompted
+Run the scrapper using `go run scraper.go` then enter the algorithm name or a brief description of the function when prompted. <br>
+We’ll search in Python (enter `2` when prompted) and select all four websites (enter `5`).
 
-<img src="go%20go%20go/images/search1.jpeg" alt="first image of example run" width="300" height="300">
+<img src="go%20go%20go/images/search1.jpeg" alt="first image of example run" width="450" height="363">
 
-In the image above, we are also searching in Python by entering `2` when prompted and we choose to search on all four websites (Stack Overflow, GeeksforGeeks, W3Schools and Tutorialspoint) by entering `5` when prompted.
+The scraper will then search the chosen sites **concurrently** using **Goroutines**. <br>
+It also displays the URLs where it found code snippets.
 
-<img src="go%20go%20go/images/search2.jpeg" alt="second image of example run">
+<img src="go%20go%20go/images/search2.jpeg" alt="second image of example run" width="800" height="356">
 
-<img src="go%20go%20go/images/search3.jpeg" alt="third image of example run">
+Next, it prints the relevant code snippets found. <br>
+Below we can see code for the Floyd Warshall Algorithm in **Python** from **GeeksforGeeks**.
 
-<img src="go%20go%20go/images/search4.jpeg" alt="fourth image of example run">
+<img src="go%20go%20go/images/search3.jpeg" alt="third image of example run" width="400" height="419">
 
-<img src="go%20go%20go/images/search5.jpeg" alt="fifth image of example run">
+If no code snippets are found on a site, an error message is displayed. <br>
+If no code is available in the specified language, the scraper may show snippets in another language.
 
+<img src="go%20go%20go/images/search4.jpeg" alt="fourth image of example run" width="500" height="364">
 
+When the search is complete, the program will display a “SEARCH COMPLETE” message.
+
+<img src="go%20go%20go/images/search5.jpeg" alt="fifth image of example run" width="450" height="322">
 
 ---
 
@@ -115,7 +123,7 @@ In the image above, we are also searching in Python by entering `2` when prompte
 
 - Concurrent searching using Goroutines
 - Scrapes multiple coding resources
-- Works with Java, Python, and C
+- Works with Java, Python, C and C++
 - User-friendly command-line interface
 
 ---
