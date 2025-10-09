@@ -89,6 +89,7 @@ go run scraper.go
 ---
 
 ## Example Run
+[Back to top](#table-of-contents)
 
 #### Searching for `Floyd Warshall Algorithm`
 
