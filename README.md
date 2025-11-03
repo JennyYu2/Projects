@@ -10,6 +10,10 @@ From compilers to games to web apps, each project folder contains its own code, 
 ### [C Compiler](./C%20Compiler)
 - Converts C code into **MIPS assembly code**  
 - **Language:** C
+
+### [Data Analysis](./Data%20Analysis)
+-
+- **Language:** Python
   
 ### [Go Web Scraper](./Go%20Web%20Scraper)
 - Scrapes code snippets in Java, Python, and C from **GeeksforGeeks, W3Schools, and StackOverflow**  
