@@ -1,24 +1,33 @@
-# Life Expectancy and Education
+# Data Analysis: Life Expectancy and Education
+
+<div align="center">  
+  <img src="C--%20Compiler/images/C.png" alt="C logo" width="250" height="276">
+</div>
 
 ### Author: Jenny Yu
 *July 2023*
 
 ---
 
-### Table of Contents
-- [Outline]()
-- [Objective]()
-- [Dataset]()
-- [Data Exploration and Insights]()
-- [Data Preprocessing]()
-- [Feature Selection and Engineering]()
-- [Model Selection]()
-- [Model Training and Evaluation]()
-- [Results and Conclusions]()
+## Table of Contents
+- [Structure](#structure)
+- [Outline](#outline)
+- [Objective](#objective)
+- [Dataset](#dataset)
+- [Data Exploration and Insights](#data-exploration-and-insights)
+- [Data Preprocessing](#data-preprocessing)
+- [Feature Selection and Engineering](#feature-selection-and-engineering)
+- [Model Selection](#model-selection)
+- [Model Training and Evaluation](#model-training-and-validation)
+- [Results and Conclusions](#results-and-conclusions)
+- [Limitations](#limitations)
+- [Aknowledgements](#aknowledgements)
 
 ---
 
-### Structure
+## Structure
+[Back to top](#table-of-contents)
+
 1. Exploratory Data Analysis
 2. Setup
 3. Improvements
@@ -33,17 +42,23 @@
 
 ---
 
-### Objective
+## Objective
+[Back to top](#table-of-contents)
+
 The goal of this project was to find the correlation between the number of years spent in school and the life expectancy of a country. It's interesting to see the factors that can affect life expectancy and the correlation between the factors and life expectancy. Seeing the relationship between life expectancy and common factors can also tell us what needs to be done for countries that are struggling in maintaining a healthy population. 
 
 ---
 
-### Dataset
+## Dataset
+[Back to top](#table-of-contents)
+
 The dataset was found on [Kaggle](https://www.kaggle.com/datasets/amirhosseinmirzaie/countries-life-expectancy) and details for the columns can also be found on the site. The dataset contains information on factors that can affect a country's life expectancy, like BMI, GDP, vaccination percentages, infant deaths, etc. I chose to look at how schooling affected life expectancy.
 
 ---
 
-### Data Exploration and Insights
+## Data Exploration and Insights
+[Back to top](#table-of-contents)
+
 - During the data exploration, I observed that schooling had the highest correlation with life expectancy.
 - I also saw that schooling and life expectancy have both generally gone up in the different countries from 2000-2015
 - ![image](https://github.com/CSC380-SU23-UofArizona/final-project-JennyYu2/assets/89495302/302b80ec-e610-4ce6-96df-4f4c792fcca0)\
@@ -52,7 +67,9 @@ The dataset was found on [Kaggle](https://www.kaggle.com/datasets/amirhosseinmir
 
 ---
 
-### Data Preprocessing
+## Data Preprocessing
+[Back to top](#table-of-contents)
+
 - To ensure data quality and suitability for modeling, I performed the following steps:
   - Data cleaning by replacing all NaN values with the average of the column
   - Removing any outliers by capping the data to a certain range
@@ -60,21 +77,27 @@ The dataset was found on [Kaggle](https://www.kaggle.com/datasets/amirhosseinmir
 
 ---
 
-### Feature Selection and Engineering
+## Feature Selection and Engineering
+[Back to top](#table-of-contents)
+
 - I conducted feature selection/engineering to improve model performance. The selected features were:
     - Mean Squared Error
     - Deviance
 
 ---
 
-### Model Selection
+## Model Selection
+[Back to top](#table-of-contents)
+
 - After analyzing the different algorithms, I chose Linear Regression and Generalized Linear Model as they are well-suited for this task
 - Linear Regression was chosen because it shows the relationship between independent and depenend variables, which is what I was looking to find between schooling and life expectancy.
 - Generalized Linear Model was chosen because it also shows the relationship between two variables which is what I was looking to see.
 
 ---
 
-### Model Training and Evaluation
+## Model Training and Evaluation
+[Back to top](#table-of-contents)
+
 - The data was split into training and testing sets. I used train(80%), test(10%) and split(10%) to assess the accuracy of the model.
   - Model 1: Used train, test, split and then applited Mean Squared Error to find the line of best fit to asses correlation
   - ![image](https://github.com/CSC380-SU23-UofArizona/final-project-JennyYu2/assets/89495302/f20b1466-fdbd-4f48-9439-1421856ee889)
@@ -82,14 +105,16 @@ The dataset was found on [Kaggle](https://www.kaggle.com/datasets/amirhosseinmir
 
 ---
 
-### Results and Conclusions
+## Results and Conclusions
+[Back to top](#table-of-contents)
+
 - Based on the evaluation, Linear Regression was the better model to find a correlation between schooling and life expectancy. It showed a high correlation with the fit of the line while the Deviance value from GLM was poor. But based on the results I can conclude that schooling has a positive impace on life expectancy and the general trend is that the more years of schooling someone has, the higher their life expectancy.
 - This means that schooling plays a large part in determining life expectancy and it can be looked at more indepth to help countries increase life expectancies.
 - I found that schooling does affect the life expectancy of a country and found the relationship to be generally positive.
 
 ---
 
-### Future Recommendations
+## Future Recommendations
 - Using more data from more countries in more recent years can improve this project and make it more applicable to modern day
 - Training a different model can also be useful in looking at other correlations in the dataset or for understanding the correlation I looked at
 - Handeling of NaN values and outliers can also be changed so the data better represents each country
@@ -97,12 +122,16 @@ The dataset was found on [Kaggle](https://www.kaggle.com/datasets/amirhosseinmir
 
 ---
 
-### Limitations
+## Limitations
+[Back to top](#table-of-contents)
+
 While this project showed the correlation between schooling and life expectancy, it doesn't show why there is such a correlation or how the correlation between schooling and life expectancy compares to other factors that might also affect life expectancy. There could also be a better model that shows the results of the project better than I did and there can be better datasets that include a larger range of data than the one I used. It's important to note that this project serves as a glimpse of what can affect a country's life expectancy and it isn't a perfect representation of every country. This project showed a general correlation but it requires further research and analysis to understand the correlation and what it means for a country. 
 
 ---
 
-### Aknowledgements
+## Aknowledgements
+[Back to top](#table-of-contents)
+
 - Thank you AMIRHOSSEIN MIRZAEI for providing the Countries Life Expectancy dataset on [Kaggle](https://www.kaggle.com/datasets/amirhosseinmirzaie/countries-life-expectancy)
 
 
