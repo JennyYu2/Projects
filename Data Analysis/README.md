@@ -1,7 +1,7 @@
 # Data Analysis: Life Expectancy and Education
 
 <div align="center">  
-  <img src="C--%20Compiler/images/C.png" alt="C logo" width="250" height="276">
+  <img src="data%20analysis/images/jupyternotebook.png" alt="jupyter notebook" width="470" height="247">
 </div>
 
 ### Author: Jenny Yu
@@ -43,6 +43,8 @@ The goal of this project is to explore the **relationship between education and 
 Specifically, I investigated whether the average number of years spent in school correlates with a country's life expectancy.
 
 Understanding these relationships can reveal how education impacts public health outcomes, helping policymakers and researchers identify what factors contribute to longer, healthier lives around the world.
+
+<img src="data%20analysis/images/python.webp" alt="python logo" width="470" height="247">
 
 ### Dataset
 
