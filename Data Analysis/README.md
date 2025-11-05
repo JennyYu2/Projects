@@ -14,8 +14,8 @@
 - [Introduction](#introduction)
 - [Data Exploration](#data-exploration)
 - [Data Preprocessing](#data-preprocessing)
-- [Feature and Model Selection](#feature-and-model-selection)
-- [Model Training and Evaluation](#model-training-and-validation)
+- [Model Selection](#model-selection)
+- [Model Training](#model-training)
 - [Results and Conclusions](#results-and-conclusions)
 - [Aknowledgements](#aknowledgements)
 
@@ -44,7 +44,7 @@ Specifically, I investigated whether the average number of years spent in school
 
 Understanding these relationships can reveal how education impacts public health outcomes, helping policymakers and researchers identify what factors contribute to longer, healthier lives around the world.
 
-<img src="data%20analysis/images/python.webp" alt="python logo" width="470" height="247">
+<img src="data%20analysis/images/python.png" alt="python logo" width="100" height="100">
 
 ### Dataset
 
@@ -79,7 +79,7 @@ To ensure data quality and consistency, the following preprocessing steps were p
 
 ---
 
-## Feature and Model Selection
+## Model Selection
 [Back to top](#table-of-contents)
 
 To optimize model performance, relevant features were selected and engineered:
@@ -96,7 +96,7 @@ Both models were selected for their interpretability and ability to show relatio
 
 ---
 
-## Model Training and Evaluation
+## Model Training
 [Back to top](#table-of-contents)
 
 The dataset was split into:
