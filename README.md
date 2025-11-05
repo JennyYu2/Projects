@@ -12,7 +12,7 @@ From compilers to games to web apps, each project folder contains its own code, 
 - **Language:** C
 
 ### [Data Analysis](./Data%20Analysis)
-- Analysis of the **relationship between education and life expectancy** using the *Countries Life Expectancy* dataset and **regression modeling**
+- Analyzing a dataset and using **regression modeling**
 - **Language:** Python (Jupyter Notebook)
   
 ### [Go Web Scraper](./Go%20Web%20Scraper)
