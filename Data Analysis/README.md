@@ -30,7 +30,9 @@
 4. Evaluation Metrics
 5. Model Trainings (Linear Regression and Generalized Linear Model)
 6. Results
-7. Ethics
+7. Ethical Considerations
+
+[View the Jupyter Notebook](data%20analysis/Exploratory%20Data%20%20Analysis.ipynb)
 
 ---
 
@@ -48,11 +50,16 @@ Understanding these relationships can reveal how education impacts public health
 ### Dataset and Tools
 <img src="data%20analysis/images/python.png" alt="python logo" width="80" height="80">
 
-The dataset was found on [Kaggle](https://www.kaggle.com/datasets/amirhosseinmirzaie/countries-life-expectancy) and details for the columns can also be found on the site. It contains country-level statistics that may influence life expectancy such as BMI, GDP, vaccination rates, infant deaths, and more.
+The dataset used in this project was obtained from [Kaggle](https://www.kaggle.com/datasets/amirhosseinmirzaie/countries-life-expectancy) and details for the columns can also be found on the site. It contains country-level statistics that may influence life expectancy such as BMI, GDP, vaccination rates, infant deaths, and more.
 
-For this project, the main focus was on the “Schooling” column and its relationship with “Life Expectancy” from the years 2000–2015.
+For this project, the main focus was on the **“Schooling”** column and its relationship with **“Life Expectancy”** from the years **2000–2015**.
 
-I used **Jyputer notebook**, **Python** and **Pandas**
+Tools and libraries used:
+  - Jupyter Notebook
+  - Python
+  - Pandas
+  - NumPy
+  - Matplotlib
 
 ---
 
@@ -69,7 +76,7 @@ During the exploratory analysis:
 
 <br>
 
-Key visualizations:
+Key findings:
   - Correlation heatmaps and scatter plots showed clear positive relationships.
   - Linear trends confirmed schooling as a strong predictor of life expectancy.
 <div align="center">  
@@ -98,8 +105,8 @@ To optimize model performance, relevant features were selected and engineered:
 - Focused on variables most closely associated with life expectancy.
 
 Two models were chosen for comparison:
-1. Linear Regression: Ideal for identifying the linear relationship between schooling and life expectancy.
-2. Generalized Linear Model (GLM): Useful for understanding non-linear relationships and evaluating model deviance.
+1. **Linear Regression**: Ideal for identifying the linear relationship between schooling and life expectancy.
+2. **Generalized Linear Model (GLM)**: Useful for understanding non-linear relationships and evaluating model deviance.
 
 Both models were selected for their interpretability and ability to show relationships between independent and dependent variables.
 
@@ -137,7 +144,7 @@ The dataset was split into:
 
 ### Results:
 
-  - Linear Regression performed better than GLM, showing a strong positive correlation between schooling and life expectancy.
+  - Linear Regression performed better than GLM, showing a **strong positive correlation** between schooling and life expectancy.
   - The results indicate that increased years of education are associated with higher life expectancy.
   - This suggests that improving access to education can contribute to longer and healthier lives globally.
 
