@@ -32,7 +32,7 @@
 6. Results
 7. Ethical Considerations
 
-[View the Jupyter Notebook](data%analysis/Exploratory%20Data%20Analysis.ipynb)
+[View the Jupyter Notebook](./data%20analysis/Exploratory%20Data%20Analysis.ipynb)
 
 ---
 
