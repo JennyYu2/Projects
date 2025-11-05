@@ -114,18 +114,18 @@ The dataset was split into:
   - Validation set: 10%
 
 ### Model 1: Linear Regression
-- Trained on the processed dataset.
-- Evaluated using **Mean Squared Error** to determine the best-fit line.
-- Produced a strong positive correlation between years in school and life expectancy.
+  - Trained on the processed dataset.
+  - Evaluated using **Mean Squared Error** to determine the best-fit line.
+  - Produced a strong positive correlation between years in school and life expectancy.
 <img src="data%20analysis/images/regression.png" alt="average school graph 2000-2015" width="382" height="300">
 <img src="data%20analysis/images/regression 2000.png" alt="average school graph 2000-2015" width="382" height="306">
 <img src="data%20analysis/images/regression 2015.png" alt="average school graph 2000-2015" width="382" height="300">
 
 
 ### Model 2: Generalized Linear Model (GLM)
-- Used a **Gaussian process** to assess correlations between variables.
-- Evaluated model fit using Deviance.
-- The varience was high so the relationship between the variables was low and Linear Regression showed better results.
+  - Used a **Gaussian process** to assess correlations between variables.
+  - Evaluated model fit using Deviance.
+  - The varience was high so the relationship between the variables was low and Linear Regression showed better results.
 <img src="data%20analysis/images/GLM.png" alt="average school graph 2000-2015" width="500" height="245">
 <img src="data%20analysis/images/GLM 2000.png" alt="average school graph 2000-2015" width="500" height="242">
 <img src="data%20analysis/images/GLM 2015.png" alt="average school graph 2000-2015" width="500" height="243">
@@ -137,21 +137,22 @@ The dataset was split into:
 
 ### Results:
 
-- Linear Regression performed better than GLM, showing a strong positive correlation between schooling and life expectancy.
-- The results indicate that increased years of education are associated with higher life expectancy.
-- This suggests that improving access to education can contribute to longer and healthier lives globally.
+  - Linear Regression performed better than GLM, showing a strong positive correlation between schooling and life expectancy.
+  - The results indicate that increased years of education are associated with higher life expectancy.
+  - This suggests that improving access to education can contribute to longer and healthier lives globally.
 
 In summary:
-- The more years of schooling a population has, the higher their average life expectancy tends to be.
+  - The more years of schooling a population has, the higher their average life expectancy tends to be.
 
 ### Future Recommendations:
 
-- Incorporate more recent data from additional countries to make findings more current.
-- Experiment with other machine learning models to capture more complex relationships.
-- Explore alternative methods for handling NaN values and outliers for improved data representation.
-- Conduct deeper research into why education influences life expectancy (e.g., income, healthcare access, literacy rates).
+  - Incorporate more recent data from additional countries to make findings more current.
+  - Experiment with other machine learning models to capture more complex relationships.
+  - Explore alternative methods for handling NaN values and outliers for improved data representation.
+  - Conduct deeper research into why education influences life expectancy (e.g., income, healthcare access, literacy rates).
 
 ### Limitations:
+
 While this analysis revealed a strong correlation, it does not establish causation.
   - The dataset may not fully represent all countries or more recent global conditions.
   - Other unexamined factors (e.g., healthcare spending, social inequality) could also influence life expectancy.
@@ -164,7 +165,7 @@ This project provides an initial look into how education correlates with life ex
 ## Aknowledgements
 [Back to top](#table-of-contents)
 
-- Thank you AMIRHOSSEIN MIRZAEI for providing the *Countries Life Expectancy* dataset on [Kaggle](https://www.kaggle.com/datasets/amirhosseinmirzaie/countries-life-expectancy)
+Thank you AMIRHOSSEIN MIRZAEI for providing the *Countries Life Expectancy* dataset on [Kaggle](https://www.kaggle.com/datasets/amirhosseinmirzaie/countries-life-expectancy)
 
 
 
