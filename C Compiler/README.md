@@ -1,7 +1,7 @@
 # C-- Compiler
 
 <div align="center">  
-  <img src="C--%20Compiler/images/C.png" alt="C logo" width="250" height="276">
+  <img src="C--%20Compiler/images/C.png" alt="C logo" width="220" height="243">
 </div>
 
 ### Author: Jenny Yu 
@@ -389,4 +389,5 @@ Output here
 - `three_address.c` / `three_address.h` --> Defines data structure and methods for three adress code 
 - `driver.c` --> Entry point of the compiler
 - `Makefile` --> Build the compiler
+
 
