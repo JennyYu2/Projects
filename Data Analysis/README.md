@@ -44,13 +44,15 @@ Specifically, I investigated whether the average number of years spent in school
 
 Understanding these relationships can reveal how education impacts public health outcomes, helping policymakers and researchers identify what factors contribute to longer, healthier lives around the world.
 
-<img src="data%20analysis/images/python.png" alt="python logo" width="100" height="100">
 
-### Dataset
+### Dataset and Tools
+<img src="data%20analysis/images/python.png" alt="python logo" width="80" height="80">
 
 The dataset was found on [Kaggle](https://www.kaggle.com/datasets/amirhosseinmirzaie/countries-life-expectancy) and details for the columns can also be found on the site. It contains country-level statistics that may influence life expectancy such as BMI, GDP, vaccination rates, infant deaths, and more.
 
 For this project, the main focus was on the “Schooling” column and its relationship with “Life Expectancy” from the years 2000–2015.
+
+I used **Jyputer notebook**, **Python** and **Pandas**
 
 ---
 
@@ -60,12 +62,19 @@ For this project, the main focus was on the “Schooling” column and its relat
 During the exploratory analysis:
   - Schooling showed the strongest correlation with life expectancy among all features.
   - Both schooling and life expectancy have shown an upward trend globally from 2000 to 2015.
+<div align="center">  
+  <img src="data%20analysis/images/average schooling.png" alt="average school graph 2000-2015" width="332" height="250">
+  <img src="data%20analysis/images/average life expect.png" alt="average life expectancy graph 2000-2015" width="320" height="250">
+</div>
+
+<br>
 
 Key visualizations:
   - Correlation heatmaps and scatter plots showed clear positive relationships.
   - Linear trends confirmed schooling as a strong predictor of life expectancy.
-
-<img src="C--%20Compiler/images/C.png" alt="C logo" width="250" height="276">
+<div align="center">  
+  <img src="data%20analysis/images/graph matrix.png" alt="average school graph 2000-2015" width="500" height="494">
+</div>
 
 ---
 
@@ -108,14 +117,18 @@ The dataset was split into:
 - Trained on the processed dataset.
 - Evaluated using **Mean Squared Error** to determine the best-fit line.
 - Produced a strong positive correlation between years in school and life expectancy.
-<div align="center">  
-  <img src="C--%20Compiler/images/C.png" alt="C logo" width="250" height="276">
-</div>
+<img src="data%20analysis/images/regression.png" alt="average school graph 2000-2015" width="382" height="300">
+<img src="data%20analysis/images/regression 2000.png" alt="average school graph 2000-2015" width="382" height="306">
+<img src="data%20analysis/images/regression 2015.png" alt="average school graph 2000-2015" width="382" height="300">
+
 
 ### Model 2: Generalized Linear Model (GLM)
 - Used a **Gaussian process** to assess correlations between variables.
 - Evaluated model fit using Deviance.
 - The varience was high so the relationship between the variables was low and Linear Regression showed better results.
+<img src="data%20analysis/images/GLM.png" alt="average school graph 2000-2015" width="500" height="245">
+<img src="data%20analysis/images/GLM 2000.png" alt="average school graph 2000-2015" width="500" height="242">
+<img src="data%20analysis/images/GLM 2015.png" alt="average school graph 2000-2015" width="500" height="243">
 
 ---
 
