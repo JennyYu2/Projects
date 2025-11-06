@@ -1,7 +1,7 @@
 # Data Analysis: Life Expectancy and Education
 
 <div align="center">  
-  <img src="data%20analysis/images/jupyternotebook.png" alt="jupyter notebook" width="470" height="247">
+  <img src="data%20analysis/images/jupyternotebook.png" alt="jupyter notebook" width="420" height="221">
 </div>
 
 ### Author: Jenny Yu
