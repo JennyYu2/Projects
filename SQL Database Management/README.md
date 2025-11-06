@@ -1,7 +1,7 @@
 # SQL Database Management
 
 <div align="center">  
-  <img src="database/images/sql.png" alt="SQL logo" width="400" height="187">
+  <img src="database/images/sql.png" alt="SQL logo" width="330" height="154">
 </div>
 
 ## Authors:
