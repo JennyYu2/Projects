@@ -38,7 +38,7 @@ From compilers to games to web apps, each project folder contains its own code, 
 ---
 
 ## Tech Used
-- **Languages:** C, Go, Java, JavaScript, SQL, HTML, CSS  
+- **Languages:** Java, Python, C, Go, SQL, JavaScript, HTML, CSS  
 - **Concepts:** Compilers, Web Scraping, Databases, Frontend Development, Game Development
   
 ---
